@@ -132,6 +132,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <hr>
 <pre>public class <span class="typeNameLabel">Attribute</span>
 extends java.lang.Object</pre>
+<div class="block">Represents a <a href="../entity/LivingEntity.html" title="class in net.minestom.server.entity"><code>living entity</code></a> attribute.</div>
 </li>
 </ul>
 </div>
@@ -156,13 +157,17 @@ extends java.lang.Object</pre>
          boolean&nbsp;shareWithClient,
          float&nbsp;defaultValue,
          float&nbsp;maxValue)</code></th>
-<td class="colLast">&nbsp;</td>
+<td class="colLast">
+<div class="block">Create a new attribute with a given key and default.</div>
+</td>
 </tr>
 <tr class="rowColor">
 <th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a href="#%3Cinit%3E(java.lang.String,float,float)">Attribute</a></span>&#8203;(java.lang.String&nbsp;key,
          float&nbsp;defaultValue,
          float&nbsp;maxValue)</code></th>
-<td class="colLast">&nbsp;</td>
+<td class="colLast">
+<div class="block">Create a new attribute with a given key and default.</div>
+</td>
 </tr>
 </table>
 </li>
@@ -185,42 +190,58 @@ extends java.lang.Object</pre>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>static <a href="Attribute.html" title="class in net.minestom.server.attribute">Attribute</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#fromKey(java.lang.String)">fromKey</a></span>&#8203;(java.lang.String&nbsp;key)</code></th>
-<td class="colLast">&nbsp;</td>
+<td class="colLast">
+<div class="block">Retrieves an attribute by its key.</div>
+</td>
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code>float</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getDefaultValue()">getDefaultValue</a></span>()</code></th>
-<td class="colLast">&nbsp;</td>
+<td class="colLast">
+<div class="block">Gets the attribute default value that should be applied.</div>
+</td>
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>java.lang.String</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getKey()">getKey</a></span>()</code></th>
-<td class="colLast">&nbsp;</td>
+<td class="colLast">
+<div class="block">Gets the attribute unique key.</div>
+</td>
 </tr>
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code>float</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getMaxValue()">getMaxValue</a></span>()</code></th>
-<td class="colLast">&nbsp;</td>
+<td class="colLast">
+<div class="block">Gets the maximum value applicable to an entity for this attribute.</div>
+</td>
 </tr>
 <tr id="i4" class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#isShared()">isShared</a></span>()</code></th>
-<td class="colLast">&nbsp;</td>
+<td class="colLast">
+<div class="block">Gets whether this attribute's instances should be sent to clients.</div>
+</td>
 </tr>
 <tr id="i5" class="rowColor">
 <td class="colFirst"><code><a href="Attribute.html" title="class in net.minestom.server.attribute">Attribute</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#register()">register</a></span>()</code></th>
-<td class="colLast">&nbsp;</td>
+<td class="colLast">
+<div class="block">Register this attribute.</div>
+</td>
 </tr>
 <tr id="i6" class="altColor">
 <td class="colFirst"><code>static <a href="Attribute.html" title="class in net.minestom.server.attribute">Attribute</a>[]</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#sharedAttributes()">sharedAttributes</a></span>()</code></th>
-<td class="colLast">&nbsp;</td>
+<td class="colLast">
+<div class="block">Retrieves registered attributes that are shared with the client.</div>
+</td>
 </tr>
 <tr id="i7" class="rowColor">
 <td class="colFirst"><code>static <a href="Attribute.html" title="class in net.minestom.server.attribute">Attribute</a>[]</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#values()">values</a></span>()</code></th>
-<td class="colLast">&nbsp;</td>
+<td class="colLast">
+<div class="block">Retrieves all registered attributes.</div>
+</td>
 </tr>
 </table>
 <ul class="blockList">
@@ -256,6 +277,16 @@ extends java.lang.Object</pre>
                  java.lang.String&nbsp;key,
                  float&nbsp;defaultValue,
                  float&nbsp;maxValue)</pre>
+<div class="block">Create a new attribute with a given key and default.
+ <p>
+ By default, this attribute will be sent to the client.
+ </p></div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>key</code> - the attribute registry key</dd>
+<dd><code>defaultValue</code> - the default value</dd>
+<dd><code>maxValue</code> - the maximum allowed value</dd>
+</dl>
 </li>
 </ul>
 <a id="&lt;init&gt;(java.lang.String,boolean,float,float)">
@@ -269,6 +300,14 @@ extends java.lang.Object</pre>
                  boolean&nbsp;shareWithClient,
                  float&nbsp;defaultValue,
                  float&nbsp;maxValue)</pre>
+<div class="block">Create a new attribute with a given key and default.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>key</code> - the attribute registry key</dd>
+<dd><code>shareWithClient</code> - whether to send this attribute to the client</dd>
+<dd><code>defaultValue</code> - the default value</dd>
+<dd><code>maxValue</code> - the maximum allowed value</dd>
+</dl>
 </li>
 </ul>
 </li>
@@ -289,6 +328,11 @@ extends java.lang.Object</pre>
 <h4>getKey</h4>
 <pre class="methodSignature">@NotNull
 public&nbsp;java.lang.String&nbsp;getKey()</pre>
+<div class="block">Gets the attribute unique key.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>the attribute key</dd>
+</dl>
 </li>
 </ul>
 <a id="getDefaultValue()">
@@ -298,6 +342,11 @@ public&nbsp;java.lang.String&nbsp;getKey()</pre>
 <li class="blockList">
 <h4>getDefaultValue</h4>
 <pre class="methodSignature">public&nbsp;float&nbsp;getDefaultValue()</pre>
+<div class="block">Gets the attribute default value that should be applied.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>the attribute default value</dd>
+</dl>
 </li>
 </ul>
 <a id="getMaxValue()">
@@ -307,6 +356,11 @@ public&nbsp;java.lang.String&nbsp;getKey()</pre>
 <li class="blockList">
 <h4>getMaxValue</h4>
 <pre class="methodSignature">public&nbsp;float&nbsp;getMaxValue()</pre>
+<div class="block">Gets the maximum value applicable to an entity for this attribute.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>the maximum value of this attribute</dd>
+</dl>
 </li>
 </ul>
 <a id="isShared()">
@@ -316,6 +370,11 @@ public&nbsp;java.lang.String&nbsp;getKey()</pre>
 <li class="blockList">
 <h4>isShared</h4>
 <pre class="methodSignature">public&nbsp;boolean&nbsp;isShared()</pre>
+<div class="block">Gets whether this attribute's instances should be sent to clients.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>if this attribute is to be shared</dd>
+</dl>
 </li>
 </ul>
 <a id="register()">
@@ -326,6 +385,14 @@ public&nbsp;java.lang.String&nbsp;getKey()</pre>
 <h4>register</h4>
 <pre class="methodSignature">@NotNull
 public&nbsp;<a href="Attribute.html" title="class in net.minestom.server.attribute">Attribute</a>&nbsp;register()</pre>
+<div class="block">Register this attribute.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>this attribute</dd>
+<dt><span class="seeLabel">See Also:</span></dt>
+<dd><a href="#fromKey(java.lang.String)"><code>fromKey(String)</code></a>, 
+<a href="#values()"><code>values()</code></a></dd>
+</dl>
 </li>
 </ul>
 <a id="fromKey(java.lang.String)">
@@ -337,6 +404,13 @@ public&nbsp;<a href="Attribute.html" title="class in net.minestom.server.attribu
 <pre class="methodSignature">@Nullable
 public static&nbsp;<a href="Attribute.html" title="class in net.minestom.server.attribute">Attribute</a>&nbsp;fromKey&#8203;(@NotNull
                                 java.lang.String&nbsp;key)</pre>
+<div class="block">Retrieves an attribute by its key.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>key</code> - the key of the attribute</dd>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>the attribute for the key or null if not any</dd>
+</dl>
 </li>
 </ul>
 <a id="values()">
@@ -347,6 +421,11 @@ public static&nbsp;<a href="Attribute.html" title="class in net.minestom.server.
 <h4>values</h4>
 <pre class="methodSignature">@NotNull
 public static&nbsp;<a href="Attribute.html" title="class in net.minestom.server.attribute">Attribute</a>[]&nbsp;values()</pre>
+<div class="block">Retrieves all registered attributes.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>an array containing all registered attributes</dd>
+</dl>
 </li>
 </ul>
 <a id="sharedAttributes()">
@@ -357,6 +436,11 @@ public static&nbsp;<a href="Attribute.html" title="class in net.minestom.server.
 <h4>sharedAttributes</h4>
 <pre class="methodSignature">@NotNull
 public static&nbsp;<a href="Attribute.html" title="class in net.minestom.server.attribute">Attribute</a>[]&nbsp;sharedAttributes()</pre>
+<div class="block">Retrieves registered attributes that are shared with the client.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>an array containing registered, sharable attributes</dd>
+</dl>
 </li>
 </ul>
 </li>

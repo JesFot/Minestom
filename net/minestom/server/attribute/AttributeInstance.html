@@ -132,6 +132,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <hr>
 <pre>public class <span class="typeNameLabel">AttributeInstance</span>
 extends java.lang.Object</pre>
+<div class="block">Represents an instance of an attribute and its modifiers.</div>
 </li>
 </ul>
 </div>
@@ -177,42 +178,58 @@ extends java.lang.Object</pre>
 <tr id="i0" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#addModifier(net.minestom.server.attribute.AttributeModifier)">addModifier</a></span>&#8203;(<a href="AttributeModifier.html" title="class in net.minestom.server.attribute">AttributeModifier</a>&nbsp;modifier)</code></th>
-<td class="colLast">&nbsp;</td>
+<td class="colLast">
+<div class="block">Add a modifier to this instance.</div>
+</td>
 </tr>
 <tr id="i1" class="rowColor">
 <td class="colFirst"><code><a href="Attribute.html" title="class in net.minestom.server.attribute">Attribute</a></code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getAttribute()">getAttribute</a></span>()</code></th>
-<td class="colLast">&nbsp;</td>
+<td class="colLast">
+<div class="block">Gets the attribute associated to this instance.</div>
+</td>
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>float</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getBaseValue()">getBaseValue</a></span>()</code></th>
-<td class="colLast">&nbsp;</td>
+<td class="colLast">
+<div class="block">The base value of this instance without modifiers</div>
+</td>
 </tr>
 <tr id="i3" class="rowColor">
 <td class="colFirst"><code>java.util.Collection&lt;<a href="AttributeModifier.html" title="class in net.minestom.server.attribute">AttributeModifier</a>&gt;</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getModifiers()">getModifiers</a></span>()</code></th>
-<td class="colLast">&nbsp;</td>
+<td class="colLast">
+<div class="block">Get the modifiers applied to this instance.</div>
+</td>
 </tr>
 <tr id="i4" class="altColor">
 <td class="colFirst"><code>float</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getValue()">getValue</a></span>()</code></th>
-<td class="colLast">&nbsp;</td>
+<td class="colLast">
+<div class="block">Gets the value of this instance calculated with modifiers applied.</div>
+</td>
 </tr>
 <tr id="i5" class="rowColor">
 <td class="colFirst"><code>protected float</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#processModifiers()">processModifiers</a></span>()</code></th>
-<td class="colLast">&nbsp;</td>
+<td class="colLast">
+<div class="block">Recalculate the value of this attribute instance using the modifiers.</div>
+</td>
 </tr>
 <tr id="i6" class="altColor">
 <td class="colFirst"><code>void</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#removeModifier(net.minestom.server.attribute.AttributeModifier)">removeModifier</a></span>&#8203;(<a href="AttributeModifier.html" title="class in net.minestom.server.attribute">AttributeModifier</a>&nbsp;modifier)</code></th>
-<td class="colLast">&nbsp;</td>
+<td class="colLast">
+<div class="block">Remove a modifier from this instance.</div>
+</td>
 </tr>
 <tr id="i7" class="rowColor">
 <td class="colFirst"><code>void</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setBaseValue(float)">setBaseValue</a></span>&#8203;(float&nbsp;baseValue)</code></th>
-<td class="colLast">&nbsp;</td>
+<td class="colLast">
+<div class="block">Sets the base value of this instance.</div>
+</td>
 </tr>
 </table>
 <ul class="blockList">
@@ -268,6 +285,11 @@ extends java.lang.Object</pre>
 <h4>getAttribute</h4>
 <pre class="methodSignature">@NotNull
 public&nbsp;<a href="Attribute.html" title="class in net.minestom.server.attribute">Attribute</a>&nbsp;getAttribute()</pre>
+<div class="block">Gets the attribute associated to this instance.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>the associated attribute</dd>
+</dl>
 </li>
 </ul>
 <a id="getBaseValue()">
@@ -277,6 +299,13 @@ public&nbsp;<a href="Attribute.html" title="class in net.minestom.server.attribu
 <li class="blockList">
 <h4>getBaseValue</h4>
 <pre class="methodSignature">public&nbsp;float&nbsp;getBaseValue()</pre>
+<div class="block">The base value of this instance without modifiers</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>the instance base value</dd>
+<dt><span class="seeLabel">See Also:</span></dt>
+<dd><a href="#setBaseValue(float)"><code>setBaseValue(float)</code></a></dd>
+</dl>
 </li>
 </ul>
 <a id="setBaseValue(float)">
@@ -286,6 +315,13 @@ public&nbsp;<a href="Attribute.html" title="class in net.minestom.server.attribu
 <li class="blockList">
 <h4>setBaseValue</h4>
 <pre class="methodSignature">public&nbsp;void&nbsp;setBaseValue&#8203;(float&nbsp;baseValue)</pre>
+<div class="block">Sets the base value of this instance.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>baseValue</code> - the new base value</dd>
+<dt><span class="seeLabel">See Also:</span></dt>
+<dd><a href="#getBaseValue()"><code>getBaseValue()</code></a></dd>
+</dl>
 </li>
 </ul>
 <a id="addModifier(net.minestom.server.attribute.AttributeModifier)">
@@ -296,6 +332,11 @@ public&nbsp;<a href="Attribute.html" title="class in net.minestom.server.attribu
 <h4>addModifier</h4>
 <pre class="methodSignature">public&nbsp;void&nbsp;addModifier&#8203;(@NotNull
                         <a href="AttributeModifier.html" title="class in net.minestom.server.attribute">AttributeModifier</a>&nbsp;modifier)</pre>
+<div class="block">Add a modifier to this instance.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>modifier</code> - the modifier to add</dd>
+</dl>
 </li>
 </ul>
 <a id="removeModifier(net.minestom.server.attribute.AttributeModifier)">
@@ -306,6 +347,11 @@ public&nbsp;<a href="Attribute.html" title="class in net.minestom.server.attribu
 <h4>removeModifier</h4>
 <pre class="methodSignature">public&nbsp;void&nbsp;removeModifier&#8203;(@NotNull
                            <a href="AttributeModifier.html" title="class in net.minestom.server.attribute">AttributeModifier</a>&nbsp;modifier)</pre>
+<div class="block">Remove a modifier from this instance.</div>
+<dl>
+<dt><span class="paramLabel">Parameters:</span></dt>
+<dd><code>modifier</code> - the modifier to remove</dd>
+</dl>
 </li>
 </ul>
 <a id="getModifiers()">
@@ -315,6 +361,11 @@ public&nbsp;<a href="Attribute.html" title="class in net.minestom.server.attribu
 <li class="blockList">
 <h4>getModifiers</h4>
 <pre class="methodSignature">public&nbsp;java.util.Collection&lt;<a href="AttributeModifier.html" title="class in net.minestom.server.attribute">AttributeModifier</a>&gt;&nbsp;getModifiers()</pre>
+<div class="block">Get the modifiers applied to this instance.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>the modifiers.</dd>
+</dl>
 </li>
 </ul>
 <a id="getValue()">
@@ -324,6 +375,11 @@ public&nbsp;<a href="Attribute.html" title="class in net.minestom.server.attribu
 <li class="blockList">
 <h4>getValue</h4>
 <pre class="methodSignature">public&nbsp;float&nbsp;getValue()</pre>
+<div class="block">Gets the value of this instance calculated with modifiers applied.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>the attribute value</dd>
+</dl>
 </li>
 </ul>
 <a id="processModifiers()">
@@ -333,6 +389,11 @@ public&nbsp;<a href="Attribute.html" title="class in net.minestom.server.attribu
 <li class="blockList">
 <h4>processModifiers</h4>
 <pre class="methodSignature">protected&nbsp;float&nbsp;processModifiers()</pre>
+<div class="block">Recalculate the value of this attribute instance using the modifiers.</div>
+<dl>
+<dt><span class="returnLabel">Returns:</span></dt>
+<dd>the attribute value</dd>
+</dl>
 </li>
 </ul>
 </li>
