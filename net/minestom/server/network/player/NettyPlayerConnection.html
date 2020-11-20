@@ -26,7 +26,7 @@
     catch(err) {
     }
 //-->
-var data = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10};
+var data = {"i0":10,"i1":10,"i2":10,"i3":10,"i4":10,"i5":10,"i6":10,"i7":10,"i8":10,"i9":10,"i10":10,"i11":10,"i12":10,"i13":10,"i14":10,"i15":10,"i16":10,"i17":10,"i18":10,"i19":10,"i20":10,"i21":10};
 var tabs = {65535:["t0","All Methods"],2:["t2","Instance Methods"],8:["t4","Concrete Methods"]};
 var altColor = "altColor";
 var rowColor = "rowColor";
@@ -217,7 +217,7 @@ extends <a href="PlayerConnection.html" title="class in net.minestom.server.netw
 <td class="colFirst"><code>void</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#enableCompression(int)">enableCompression</a></span>&#8203;(int&nbsp;threshold)</code></th>
 <td class="colLast">
-<div class="block">Enables compression and add a new channel to the pipeline.</div>
+<div class="block">Enables compression and add a new codec to the pipeline.</div>
 </td>
 </tr>
 <tr id="i3" class="rowColor">
@@ -299,7 +299,7 @@ extends <a href="PlayerConnection.html" title="class in net.minestom.server.netw
 <td class="colFirst"><code>void</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#setEncryptionKey(javax.crypto.SecretKey)">setEncryptionKey</a></span>&#8203;(javax.crypto.SecretKey&nbsp;secretKey)</code></th>
 <td class="colLast">
-<div class="block">Sets the encryption key and add the channels to the pipeline.</div>
+<div class="block">Sets the encryption key and add the codecs to the pipeline.</div>
 </td>
 </tr>
 <tr id="i16" class="altColor">
@@ -331,13 +331,20 @@ extends <a href="PlayerConnection.html" title="class in net.minestom.server.netw
 <div class="block">Sets the internal login username field.</div>
 </td>
 </tr>
+<tr id="i21" class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#update()">update</a></span>()</code></th>
+<td class="colLast">
+<div class="block">Updates values related to the network connection.</div>
+</td>
+</tr>
 </table>
 <ul class="blockList">
 <li class="blockList"><a id="methods.inherited.from.class.net.minestom.server.network.player.PlayerConnection">
 <!--   -->
 </a>
 <h3>Methods inherited from class&nbsp;net.minestom.server.network.player.<a href="PlayerConnection.html" title="class in net.minestom.server.network.player">PlayerConnection</a></h3>
-<code><a href="PlayerConnection.html#getConnectionState()">getConnectionState</a>, <a href="PlayerConnection.html#getIdentifier()">getIdentifier</a>, <a href="PlayerConnection.html#getLastPacketCounter()">getLastPacketCounter</a>, <a href="PlayerConnection.html#getPacketCounter()">getPacketCounter</a>, <a href="PlayerConnection.html#getPlayer()">getPlayer</a>, <a href="PlayerConnection.html#isOnline()">isOnline</a>, <a href="PlayerConnection.html#refreshOnline(boolean)">refreshOnline</a>, <a href="PlayerConnection.html#setPlayer(net.minestom.server.entity.Player)">setPlayer</a>, <a href="PlayerConnection.html#shouldSendPacket(net.minestom.server.network.packet.server.ServerPacket)">shouldSendPacket</a>, <a href="PlayerConnection.html#toString()">toString</a>, <a href="PlayerConnection.html#updateStats()">updateStats</a></code></li>
+<code><a href="PlayerConnection.html#getConnectionState()">getConnectionState</a>, <a href="PlayerConnection.html#getIdentifier()">getIdentifier</a>, <a href="PlayerConnection.html#getLastPacketCounter()">getLastPacketCounter</a>, <a href="PlayerConnection.html#getPacketCounter()">getPacketCounter</a>, <a href="PlayerConnection.html#getPlayer()">getPlayer</a>, <a href="PlayerConnection.html#isOnline()">isOnline</a>, <a href="PlayerConnection.html#refreshOnline(boolean)">refreshOnline</a>, <a href="PlayerConnection.html#setPlayer(net.minestom.server.entity.Player)">setPlayer</a>, <a href="PlayerConnection.html#shouldSendPacket(net.minestom.server.network.packet.server.ServerPacket)">shouldSendPacket</a>, <a href="PlayerConnection.html#toString()">toString</a></code></li>
 </ul>
 <ul class="blockList">
 <li class="blockList"><a id="methods.inherited.from.class.java.lang.Object">
@@ -382,6 +389,21 @@ extends <a href="PlayerConnection.html" title="class in net.minestom.server.netw
 <!--   -->
 </a>
 <h3>Method Detail</h3>
+<a id="update()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>update</h4>
+<pre class="methodSignature">public&nbsp;void&nbsp;update()</pre>
+<div class="block"><span class="descfrmTypeLabel">Description copied from class:&nbsp;<code><a href="PlayerConnection.html#update()">PlayerConnection</a></code></span></div>
+<div class="block">Updates values related to the network connection.</div>
+<dl>
+<dt><span class="overrideSpecifyLabel">Overrides:</span></dt>
+<dd><code><a href="PlayerConnection.html#update()">update</a></code>&nbsp;in class&nbsp;<code><a href="PlayerConnection.html" title="class in net.minestom.server.network.player">PlayerConnection</a></code></dd>
+</dl>
+</li>
+</ul>
 <a id="setEncryptionKey(javax.crypto.SecretKey)">
 <!--   -->
 </a>
@@ -390,7 +412,7 @@ extends <a href="PlayerConnection.html" title="class in net.minestom.server.netw
 <h4>setEncryptionKey</h4>
 <pre class="methodSignature">public&nbsp;void&nbsp;setEncryptionKey&#8203;(@NotNull
                              javax.crypto.SecretKey&nbsp;secretKey)</pre>
-<div class="block">Sets the encryption key and add the channels to the pipeline.</div>
+<div class="block">Sets the encryption key and add the codecs to the pipeline.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>secretKey</code> - the secret key to use in the encryption</dd>
@@ -406,7 +428,7 @@ extends <a href="PlayerConnection.html" title="class in net.minestom.server.netw
 <li class="blockList">
 <h4>enableCompression</h4>
 <pre class="methodSignature">public&nbsp;void&nbsp;enableCompression&#8203;(int&nbsp;threshold)</pre>
-<div class="block">Enables compression and add a new channel to the pipeline.</div>
+<div class="block">Enables compression and add a new codec to the pipeline.</div>
 <dl>
 <dt><span class="paramLabel">Parameters:</span></dt>
 <dd><code>threshold</code> - the threshold for a packet to be compressible</dd>
