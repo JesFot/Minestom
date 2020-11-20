@@ -276,13 +276,17 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span></div>
 &nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/listener/manager/ServerPacketConsumer.html#accept(java.util.Collection,net.minestom.server.listener.manager.PacketController,net.minestom.server.network.packet.server.ServerPacket)">accept(Collection&lt;Player&gt;, PacketController, ServerPacket)</a></span> - Method in interface net.minestom.server.listener.manager.<a href="net/minestom/server/listener/manager/ServerPacketConsumer.html" title="interface in net.minestom.server.listener.manager">ServerPacketConsumer</a></dt>
+<dd>
+<div class="block">Called when a packet is sent to a client.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/inventory/condition/InventoryCondition.html#accept(net.minestom.server.entity.Player,int,net.minestom.server.inventory.click.ClickType,net.minestom.server.inventory.condition.InventoryConditionResult)">accept(Player, int, ClickType, InventoryConditionResult)</a></span> - Method in interface net.minestom.server.inventory.condition.<a href="net/minestom/server/inventory/condition/InventoryCondition.html" title="interface in net.minestom.server.inventory.condition">InventoryCondition</a></dt>
 <dd>
 <div class="block">Called when a <a href="net/minestom/server/entity/Player.html" title="class in net.minestom.server.entity"><code>Player</code></a> clicks in the inventory where this <a href="net/minestom/server/inventory/condition/InventoryCondition.html" title="interface in net.minestom.server.inventory.condition"><code>InventoryCondition</code></a> has been added to.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/listener/manager/PacketConsumer.html#accept(net.minestom.server.entity.Player,net.minestom.server.listener.manager.PacketController,T)">accept(Player, PacketController, T)</a></span> - Method in interface net.minestom.server.listener.manager.<a href="net/minestom/server/listener/manager/PacketConsumer.html" title="interface in net.minestom.server.listener.manager">PacketConsumer</a></dt>
+<dt><span class="memberNameLink"><a href="net/minestom/server/listener/manager/ClientPacketConsumer.html#accept(net.minestom.server.entity.Player,net.minestom.server.listener.manager.PacketController,net.minestom.server.network.packet.client.ClientPlayPacket)">accept(Player, PacketController, ClientPlayPacket)</a></span> - Method in interface net.minestom.server.listener.manager.<a href="net/minestom/server/listener/manager/ClientPacketConsumer.html" title="interface in net.minestom.server.listener.manager">ClientPacketConsumer</a></dt>
 <dd>
-<div class="block">Called when a packet is received/sent from/to a client.</div>
+<div class="block">Called when a packet is received from a client.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/ping/ResponseDataConsumer.html#accept(net.minestom.server.network.player.PlayerConnection,net.minestom.server.ping.ResponseData)">accept(PlayerConnection, ResponseData)</a></span> - Method in interface net.minestom.server.ping.<a href="net/minestom/server/ping/ResponseDataConsumer.html" title="interface in net.minestom.server.ping">ResponseDataConsumer</a></dt>
 <dd>&nbsp;</dd>
@@ -2797,6 +2801,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/listener/PlayerVehicleListener.html#boatSteerListener(net.minestom.server.network.packet.client.play.ClientSteerBoatPacket,net.minestom.server.entity.Player)">boatSteerListener(ClientSteerBoatPacket, Player)</a></span> - Static method in class net.minestom.server.listener.<a href="net/minestom/server/listener/PlayerVehicleListener.html" title="class in net.minestom.server.listener">PlayerVehicleListener</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/packet/FramedPacket.html#body">body</a></span> - Variable in class net.minestom.server.network.netty.packet.<a href="net/minestom/server/network/netty/packet/FramedPacket.html" title="class in net.minestom.server.network.netty.packet">FramedPacket</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/packet/InboundPacket.html#body">body</a></span> - Variable in class net.minestom.server.network.netty.packet.<a href="net/minestom/server/network/netty/packet/InboundPacket.html" title="class in net.minestom.server.network.netty.packet">InboundPacket</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/chat/ChatColor.html#BOLD">BOLD</a></span> - Static variable in class net.minestom.server.chat.<a href="net/minestom/server/chat/ChatColor.html" title="class in net.minestom.server.chat">ChatColor</a></dt>
@@ -3822,6 +3828,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/listener/WindowListener.html#clickWindowListener(net.minestom.server.network.packet.client.play.ClientClickWindowPacket,net.minestom.server.entity.Player)">clickWindowListener(ClientClickWindowPacket, Player)</a></span> - Static method in class net.minestom.server.listener.<a href="net/minestom/server/listener/WindowListener.html" title="class in net.minestom.server.listener">WindowListener</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/NettyServer.html#CLIENT_HANDLER_NAME">CLIENT_HANDLER_NAME</a></span> - Static variable in class net.minestom.server.network.netty.<a href="net/minestom/server/network/netty/NettyServer.html" title="class in net.minestom.server.network.netty">NettyServer</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/network/packet/client/play/ClientAdvancementTabPacket.html" title="class in net.minestom.server.network.packet.client.play"><span class="typeNameLink">ClientAdvancementTabPacket</span></a> - Class in <a href="net/minestom/server/network/packet/client/play/package-summary.html">net.minestom.server.network.packet.client.play</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/client/play/ClientAdvancementTabPacket.html#%3Cinit%3E()">ClientAdvancementTabPacket()</a></span> - Constructor for class net.minestom.server.network.packet.client.play.<a href="net/minestom/server/network/packet/client/play/ClientAdvancementTabPacket.html" title="class in net.minestom.server.network.packet.client.play">ClientAdvancementTabPacket</a></dt>
@@ -3889,6 +3897,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><a href="net/minestom/server/network/packet/client/ClientPacket.html" title="interface in net.minestom.server.network.packet.client"><span class="typeNameLink">ClientPacket</span></a> - Interface in <a href="net/minestom/server/network/packet/client/package-summary.html">net.minestom.server.network.packet.client</a></dt>
 <dd>
 <div class="block">Represents a packet received from a client.</div>
+</dd>
+<dt><a href="net/minestom/server/listener/manager/ClientPacketConsumer.html" title="interface in net.minestom.server.listener.manager"><span class="typeNameLink">ClientPacketConsumer</span></a> - Interface in <a href="net/minestom/server/listener/manager/package-summary.html">net.minestom.server.listener.manager</a></dt>
+<dd>
+<div class="block">Interface used to add a listener for incoming packets with <a href="net/minestom/server/network/ConnectionManager.html#onPacketReceive(net.minestom.server.listener.manager.ClientPacketConsumer)"><code>ConnectionManager.onPacketReceive(ClientPacketConsumer)</code></a>.</div>
 </dd>
 <dt><a href="net/minestom/server/network/packet/client/handler/ClientPacketsHandler.html" title="class in net.minestom.server.network.packet.client.handler"><span class="typeNameLink">ClientPacketsHandler</span></a> - Class in <a href="net/minestom/server/network/packet/client/handler/package-summary.html">net.minestom.server.network.packet.client.handler</a></dt>
 <dd>
@@ -4343,6 +4355,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/item/Material.html#COMPOSTER">COMPOSTER</a></span> - net.minestom.server.item.<a href="net/minestom/server/item/Material.html" title="enum in net.minestom.server.item">Material</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/particle/Particle.html#COMPOSTER">COMPOSTER</a></span> - net.minestom.server.particle.<a href="net/minestom/server/particle/Particle.html" title="enum in net.minestom.server.particle">Particle</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/utils/PacketUtils.html#compressBuffer(java.util.zip.Deflater,byte%5B%5D,io.netty.buffer.ByteBuf,io.netty.buffer.ByteBuf)">compressBuffer(Deflater, byte[], ByteBuf, ByteBuf)</a></span> - Static method in class net.minestom.server.utils.<a href="net/minestom/server/utils/PacketUtils.html" title="class in net.minestom.server.utils">PacketUtils</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/NettyServer.html#COMPRESSOR_HANDLER_NAME">COMPRESSOR_HANDLER_NAME</a></span> - Static variable in class net.minestom.server.network.netty.<a href="net/minestom/server/network/netty/NettyServer.html" title="class in net.minestom.server.network.netty">NettyServer</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/NamespaceIDHashMap.html#computeIfAbsent(java.lang.String,java.lang.String,java.util.function.Function)">computeIfAbsent(String, String, Function&lt;? super NamespaceID, ? extends V&gt;)</a></span> - Method in class net.minestom.server.utils.<a href="net/minestom/server/utils/NamespaceIDHashMap.html" title="class in net.minestom.server.utils">NamespaceIDHashMap</a></dt>
 <dd>&nbsp;</dd>
@@ -5827,7 +5843,11 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/data/type/array/ByteArrayData.html#decodeByteArray(net.minestom.server.utils.binary.BinaryReader)">decodeByteArray(BinaryReader)</a></span> - Static method in class net.minestom.server.data.type.array.<a href="net/minestom/server/data/type/array/ByteArrayData.html" title="class in net.minestom.server.data.type.array">ByteArrayData</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/NettyServer.html#DECODER_HANDLER_NAME">DECODER_HANDLER_NAME</a></span> - Static variable in class net.minestom.server.network.netty.<a href="net/minestom/server/network/netty/NettyServer.html" title="class in net.minestom.server.network.netty">NettyServer</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/extras/mojangAuth/CipherBase.html#decrypt(io.netty.channel.ChannelHandlerContext,io.netty.buffer.ByteBuf)">decrypt(ChannelHandlerContext, ByteBuf)</a></span> - Method in class net.minestom.server.extras.mojangAuth.<a href="net/minestom/server/extras/mojangAuth/CipherBase.html" title="class in net.minestom.server.extras.mojangAuth">CipherBase</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/NettyServer.html#DECRYPT_HANDLER_NAME">DECRYPT_HANDLER_NAME</a></span> - Static variable in class net.minestom.server.network.netty.<a href="net/minestom/server/network/netty/NettyServer.html" title="class in net.minestom.server.network.netty">NettyServer</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/extras/mojangAuth/MojangCrypt.html#decryptByteToSecretKey(java.security.PrivateKey,byte%5B%5D)">decryptByteToSecretKey(PrivateKey, byte[])</a></span> - Static method in class net.minestom.server.extras.mojangAuth.<a href="net/minestom/server/extras/mojangAuth/MojangCrypt.html" title="class in net.minestom.server.extras.mojangAuth">MojangCrypt</a></dt>
 <dd>&nbsp;</dd>
@@ -6400,10 +6420,6 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/instance/SharedInstance.html#enableAutoChunkLoad(boolean)">enableAutoChunkLoad(boolean)</a></span> - Method in class net.minestom.server.instance.<a href="net/minestom/server/instance/SharedInstance.html" title="class in net.minestom.server.instance">SharedInstance</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/network/player/NettyPlayerConnection.html#enableCompression(int)">enableCompression(int)</a></span> - Method in class net.minestom.server.network.player.<a href="net/minestom/server/network/player/NettyPlayerConnection.html" title="class in net.minestom.server.network.player">NettyPlayerConnection</a></dt>
-<dd>
-<div class="block">Enables compression and add a new codec to the pipeline.</div>
-</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/instance/block/CustomBlock.html#enableCustomBreakDelay()">enableCustomBreakDelay()</a></span> - Method in class net.minestom.server.instance.block.<a href="net/minestom/server/instance/block/CustomBlock.html" title="class in net.minestom.server.instance.block">CustomBlock</a></dt>
 <dd>
 <div class="block">Used to enable the custom break delay from <a href="net/minestom/server/instance/block/CustomBlock.html#getBreakDelay(net.minestom.server.entity.Player,net.minestom.server.utils.BlockPosition,byte,java.util.Set)"><code>CustomBlock.getBreakDelay(Player, BlockPosition, byte, Set)</code></a>
@@ -6488,6 +6504,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/codec/PacketFramer.html#encode(io.netty.channel.ChannelHandlerContext,io.netty.buffer.ByteBuf,io.netty.buffer.ByteBuf)">encode(ChannelHandlerContext, ByteBuf, ByteBuf)</a></span> - Method in class net.minestom.server.network.netty.codec.<a href="net/minestom/server/network/netty/codec/PacketFramer.html" title="class in net.minestom.server.network.netty.codec">PacketFramer</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/codec/GroupedPacketHandler.html#encode(io.netty.channel.ChannelHandlerContext,net.minestom.server.network.netty.packet.FramedPacket,io.netty.buffer.ByteBuf)">encode(ChannelHandlerContext, FramedPacket, ByteBuf)</a></span> - Method in class net.minestom.server.network.netty.codec.<a href="net/minestom/server/network/netty/codec/GroupedPacketHandler.html" title="class in net.minestom.server.network.netty.codec">GroupedPacketHandler</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/codec/PacketEncoder.html#encode(io.netty.channel.ChannelHandlerContext,net.minestom.server.network.packet.server.ServerPacket,io.netty.buffer.ByteBuf)">encode(ChannelHandlerContext, ServerPacket, ByteBuf)</a></span> - Method in class net.minestom.server.network.netty.codec.<a href="net/minestom/server/network/netty/codec/PacketEncoder.html" title="class in net.minestom.server.network.netty.codec">PacketEncoder</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/data/type/array/BooleanArrayData.html#encode(net.minestom.server.utils.binary.BinaryWriter,boolean%5B%5D)">encode(BinaryWriter, boolean[])</a></span> - Method in class net.minestom.server.data.type.array.<a href="net/minestom/server/data/type/array/BooleanArrayData.html" title="class in net.minestom.server.data.type.array">BooleanArrayData</a></dt>
@@ -6544,7 +6562,11 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/data/type/array/ByteArrayData.html#encodeByteArray(net.minestom.server.utils.binary.BinaryWriter,byte%5B%5D)">encodeByteArray(BinaryWriter, byte[])</a></span> - Static method in class net.minestom.server.data.type.array.<a href="net/minestom/server/data/type/array/ByteArrayData.html" title="class in net.minestom.server.data.type.array">ByteArrayData</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/NettyServer.html#ENCODER_HANDLER_NAME">ENCODER_HANDLER_NAME</a></span> - Static variable in class net.minestom.server.network.netty.<a href="net/minestom/server/network/netty/NettyServer.html" title="class in net.minestom.server.network.netty">NettyServer</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/extras/mojangAuth/CipherBase.html#encrypt(io.netty.buffer.ByteBuf,io.netty.buffer.ByteBuf)">encrypt(ByteBuf, ByteBuf)</a></span> - Method in class net.minestom.server.extras.mojangAuth.<a href="net/minestom/server/extras/mojangAuth/CipherBase.html" title="class in net.minestom.server.extras.mojangAuth">CipherBase</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/NettyServer.html#ENCRYPT_HANDLER_NAME">ENCRYPT_HANDLER_NAME</a></span> - Static variable in class net.minestom.server.network.netty.<a href="net/minestom/server/network/netty/NettyServer.html" title="class in net.minestom.server.network.netty">NettyServer</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/extras/mojangAuth/Encrypter.html" title="class in net.minestom.server.extras.mojangAuth"><span class="typeNameLink">Encrypter</span></a> - Class in <a href="net/minestom/server/extras/mojangAuth/package-summary.html">net.minestom.server.extras.mojangAuth</a></dt>
 <dd>&nbsp;</dd>
@@ -8103,6 +8125,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/event/entity/EntityItemMergeEvent.html#%3Cinit%3E(net.minestom.server.entity.ItemEntity,net.minestom.server.entity.ItemEntity,net.minestom.server.item.ItemStack)">EntityItemMergeEvent(ItemEntity, ItemEntity, ItemStack)</a></span> - Constructor for class net.minestom.server.event.entity.<a href="net/minestom/server/event/entity/EntityItemMergeEvent.html" title="class in net.minestom.server.event.entity">EntityItemMergeEvent</a></dt>
 <dd>&nbsp;</dd>
+<dt><a href="net/minestom/server/entity/type/animal/EntityLlama.html" title="class in net.minestom.server.entity.type.animal"><span class="typeNameLink">EntityLlama</span></a> - Class in <a href="net/minestom/server/entity/type/animal/package-summary.html">net.minestom.server.entity.type.animal</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/type/animal/EntityLlama.html#%3Cinit%3E(net.minestom.server.utils.Position)">EntityLlama(Position)</a></span> - Constructor for class net.minestom.server.entity.type.animal.<a href="net/minestom/server/entity/type/animal/EntityLlama.html" title="class in net.minestom.server.entity.type.animal">EntityLlama</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/entity/EntityManager.html" title="class in net.minestom.server.entity"><span class="typeNameLink">EntityManager</span></a> - Class in <a href="net/minestom/server/entity/package-summary.html">net.minestom.server.entity</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/EntityManager.html#%3Cinit%3E()">EntityManager()</a></span> - Constructor for class net.minestom.server.entity.<a href="net/minestom/server/entity/EntityManager.html" title="class in net.minestom.server.entity">EntityManager</a></dt>
@@ -8869,10 +8895,20 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/item/Material.html#FOX_SPAWN_EGG">FOX_SPAWN_EGG</a></span> - net.minestom.server.item.<a href="net/minestom/server/item/Material.html" title="enum in net.minestom.server.item">Material</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/utils/PacketUtils.html#frameBuffer(io.netty.buffer.ByteBuf,io.netty.buffer.ByteBuf)">frameBuffer(ByteBuf, ByteBuf)</a></span> - Static method in class net.minestom.server.utils.<a href="net/minestom/server/utils/PacketUtils.html" title="class in net.minestom.server.utils">PacketUtils</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/map/Framebuffer.html" title="interface in net.minestom.server.map"><span class="typeNameLink">Framebuffer</span></a> - Interface in <a href="net/minestom/server/map/package-summary.html">net.minestom.server.map</a></dt>
 <dd>
 <div class="block">Framebuffer to render to a map</div>
 </dd>
+<dt><a href="net/minestom/server/network/netty/packet/FramedPacket.html" title="class in net.minestom.server.network.netty.packet"><span class="typeNameLink">FramedPacket</span></a> - Class in <a href="net/minestom/server/network/netty/packet/package-summary.html">net.minestom.server.network.netty.packet</a></dt>
+<dd>
+<div class="block">Represents a packet which is already framed.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/packet/FramedPacket.html#%3Cinit%3E(io.netty.buffer.ByteBuf)">FramedPacket(ByteBuf)</a></span> - Constructor for class net.minestom.server.network.netty.packet.<a href="net/minestom/server/network/netty/packet/FramedPacket.html" title="class in net.minestom.server.network.netty.packet">FramedPacket</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/NettyServer.html#FRAMER_HANDLER_NAME">FRAMER_HANDLER_NAME</a></span> - Static variable in class net.minestom.server.network.netty.<a href="net/minestom/server/network/netty/NettyServer.html" title="class in net.minestom.server.network.netty">NettyServer</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/AdvancementsPacket.DisplayData.html#frameType">frameType</a></span> - Variable in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/AdvancementsPacket.DisplayData.html" title="class in net.minestom.server.network.packet.server.play">AdvancementsPacket.DisplayData</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/advancements/FrameType.html" title="enum in net.minestom.server.advancements"><span class="typeNameLink">FrameType</span></a> - Enum in <a href="net/minestom/server/advancements/package-summary.html">net.minestom.server.advancements</a></dt>
@@ -11102,6 +11138,12 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="block">Gets the last time at which a block changed.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/instance/Chunk.html#getLastChangeTime()">getLastChangeTime()</a></span> - Method in class net.minestom.server.instance.<a href="net/minestom/server/instance/Chunk.html" title="class in net.minestom.server.instance">Chunk</a></dt>
+<dd>
+<div class="block">Gets the last time that this chunk changed.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/instance/DynamicChunk.html#getLastChangeTime()">getLastChangeTime()</a></span> - Method in class net.minestom.server.instance.<a href="net/minestom/server/instance/DynamicChunk.html" title="class in net.minestom.server.instance">DynamicChunk</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/LivingEntity.html#getLastDamageSource()">getLastDamageSource()</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/LivingEntity.html" title="class in net.minestom.server.entity">LivingEntity</a></dt>
 <dd>
 <div class="block">Gets the last damage source which damaged of this entity.</div>
@@ -13160,6 +13202,12 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/inventory/InventoryType.html#GRINDSTONE">GRINDSTONE</a></span> - net.minestom.server.inventory.<a href="net/minestom/server/inventory/InventoryType.html" title="enum in net.minestom.server.inventory">InventoryType</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/item/Material.html#GRINDSTONE">GRINDSTONE</a></span> - net.minestom.server.item.<a href="net/minestom/server/item/Material.html" title="enum in net.minestom.server.item">Material</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/NettyServer.html#GROUPED_PACKET_HANDLER_NAME">GROUPED_PACKET_HANDLER_NAME</a></span> - Static variable in class net.minestom.server.network.netty.<a href="net/minestom/server/network/netty/NettyServer.html" title="class in net.minestom.server.network.netty">NettyServer</a></dt>
+<dd>&nbsp;</dd>
+<dt><a href="net/minestom/server/network/netty/codec/GroupedPacketHandler.html" title="class in net.minestom.server.network.netty.codec"><span class="typeNameLink">GroupedPacketHandler</span></a> - Class in <a href="net/minestom/server/network/netty/codec/package-summary.html">net.minestom.server.network.netty.codec</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/codec/GroupedPacketHandler.html#%3Cinit%3E()">GroupedPacketHandler()</a></span> - Constructor for class net.minestom.server.network.netty.codec.<a href="net/minestom/server/network/netty/codec/GroupedPacketHandler.html" title="class in net.minestom.server.network.netty.codec">GroupedPacketHandler</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/gamedata/loottables/entries/GroupEntry.html" title="class in net.minestom.server.gamedata.loottables.entries"><span class="typeNameLink">GroupEntry</span></a> - Class in <a href="net/minestom/server/gamedata/loottables/entries/package-summary.html">net.minestom.server.gamedata.loottables.entries</a></dt>
 <dd>&nbsp;</dd>
@@ -17116,6 +17164,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/client/play/ClientSteerBoatPacket.html#leftPaddleTurning">leftPaddleTurning</a></span> - Variable in class net.minestom.server.network.packet.client.play.<a href="net/minestom/server/network/packet/client/play/ClientSteerBoatPacket.html" title="class in net.minestom.server.network.packet.client.play">ClientSteerBoatPacket</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/NettyServer.html#LEGACY_PING_HANDLER_NAME">LEGACY_PING_HANDLER_NAME</a></span> - Static variable in class net.minestom.server.network.netty.<a href="net/minestom/server/network/netty/NettyServer.html" title="class in net.minestom.server.network.netty">NettyServer</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/network/netty/codec/LegacyPingHandler.html" title="class in net.minestom.server.network.netty.codec"><span class="typeNameLink">LegacyPingHandler</span></a> - Class in <a href="net/minestom/server/network/netty/codec/package-summary.html">net.minestom.server.network.netty.codec</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/codec/LegacyPingHandler.html#%3Cinit%3E()">LegacyPingHandler()</a></span> - Constructor for class net.minestom.server.network.netty.codec.<a href="net/minestom/server/network/netty/codec/LegacyPingHandler.html" title="class in net.minestom.server.network.netty.codec">LegacyPingHandler</a></dt>
@@ -19387,11 +19437,11 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/arguments/minecraft/ArgumentEntities.html#onlyPlayers(boolean)">onlyPlayers(boolean)</a></span> - Method in class net.minestom.server.command.builder.arguments.minecraft.<a href="net/minestom/server/command/builder/arguments/minecraft/ArgumentEntities.html" title="class in net.minestom.server.command.builder.arguments.minecraft">ArgumentEntities</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/network/ConnectionManager.html#onPacketReceive(net.minestom.server.listener.manager.PacketConsumer)">onPacketReceive(PacketConsumer&lt;ClientPlayPacket&gt;)</a></span> - Method in class net.minestom.server.network.<a href="net/minestom/server/network/ConnectionManager.html" title="class in net.minestom.server.network">ConnectionManager</a></dt>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/ConnectionManager.html#onPacketReceive(net.minestom.server.listener.manager.ClientPacketConsumer)">onPacketReceive(ClientPacketConsumer)</a></span> - Method in class net.minestom.server.network.<a href="net/minestom/server/network/ConnectionManager.html" title="class in net.minestom.server.network">ConnectionManager</a></dt>
 <dd>
 <div class="block">Adds a consumer to call once a packet is received.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/network/ConnectionManager.html#onPacketSend(net.minestom.server.listener.manager.PacketConsumer)">onPacketSend(PacketConsumer&lt;ServerPacket&gt;)</a></span> - Method in class net.minestom.server.network.<a href="net/minestom/server/network/ConnectionManager.html" title="class in net.minestom.server.network">ConnectionManager</a></dt>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/ConnectionManager.html#onPacketSend(net.minestom.server.listener.manager.ServerPacketConsumer)">onPacketSend(ServerPacketConsumer)</a></span> - Method in class net.minestom.server.network.<a href="net/minestom/server/network/ConnectionManager.html" title="class in net.minestom.server.network">ConnectionManager</a></dt>
 <dd>
 <div class="block">Adds a consumer to call once a packet is sent.</div>
 </dd>
@@ -19602,14 +19652,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/codec/PacketCompressor.html#%3Cinit%3E(int)">PacketCompressor(int)</a></span> - Constructor for class net.minestom.server.network.netty.codec.<a href="net/minestom/server/network/netty/codec/PacketCompressor.html" title="class in net.minestom.server.network.netty.codec">PacketCompressor</a></dt>
 <dd>&nbsp;</dd>
-<dt><a href="net/minestom/server/listener/manager/PacketConsumer.html" title="interface in net.minestom.server.listener.manager"><span class="typeNameLink">PacketConsumer</span></a>&lt;<a href="net/minestom/server/listener/manager/PacketConsumer.html" title="type parameter in PacketConsumer">T</a>&gt; - Interface in <a href="net/minestom/server/listener/manager/package-summary.html">net.minestom.server.listener.manager</a></dt>
-<dd>
-<div class="block">Interface used to add a listener for incoming/outgoing packets with
- <a href="net/minestom/server/network/ConnectionManager.html#onPacketReceive(net.minestom.server.listener.manager.PacketConsumer)"><code>ConnectionManager.onPacketReceive(PacketConsumer)</code></a> and <a href="net/minestom/server/network/ConnectionManager.html#onPacketSend(net.minestom.server.listener.manager.PacketConsumer)"><code>ConnectionManager.onPacketSend(PacketConsumer)</code></a>.</div>
-</dd>
 <dt><a href="net/minestom/server/listener/manager/PacketController.html" title="class in net.minestom.server.listener.manager"><span class="typeNameLink">PacketController</span></a> - Class in <a href="net/minestom/server/listener/manager/package-summary.html">net.minestom.server.listener.manager</a></dt>
 <dd>
-<div class="block">Used to control the output of a packet in <a href="net/minestom/server/listener/manager/PacketConsumer.html#accept(net.minestom.server.entity.Player,net.minestom.server.listener.manager.PacketController,T)"><code>PacketConsumer.accept(Player, PacketController, Object)</code></a>.</div>
+<div class="block">Used to control the output of a packet in <a href="net/minestom/server/listener/manager/ClientPacketConsumer.html#accept(net.minestom.server.entity.Player,net.minestom.server.listener.manager.PacketController,net.minestom.server.network.packet.client.ClientPlayPacket)"><code>ClientPacketConsumer.accept(Player, PacketController, ClientPlayPacket)</code></a>
+ and <a href="net/minestom/server/listener/manager/ServerPacketConsumer.html#accept(java.util.Collection,net.minestom.server.listener.manager.PacketController,net.minestom.server.network.packet.server.ServerPacket)"><code>ServerPacketConsumer.accept(Collection, PacketController, ServerPacket)</code></a>.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/listener/manager/PacketController.html#%3Cinit%3E()">PacketController()</a></span> - Constructor for class net.minestom.server.listener.manager.<a href="net/minestom/server/listener/manager/PacketController.html" title="class in net.minestom.server.listener.manager">PacketController</a></dt>
 <dd>&nbsp;</dd>
@@ -21040,9 +21086,9 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="block">Recalculate the value of this attribute instance using the modifiers.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/listener/manager/PacketListenerManager.html#processServerPacket(T,net.minestom.server.entity.Player)">processServerPacket(T, Player)</a></span> - Method in class net.minestom.server.listener.manager.<a href="net/minestom/server/listener/manager/PacketListenerManager.html" title="class in net.minestom.server.listener.manager">PacketListenerManager</a></dt>
+<dt><span class="memberNameLink"><a href="net/minestom/server/listener/manager/PacketListenerManager.html#processServerPacket(net.minestom.server.network.packet.server.ServerPacket,java.util.Collection)">processServerPacket(ServerPacket, Collection&lt;Player&gt;)</a></span> - Method in class net.minestom.server.listener.manager.<a href="net/minestom/server/listener/manager/PacketListenerManager.html" title="class in net.minestom.server.listener.manager">PacketListenerManager</a></dt>
 <dd>
-<div class="block">Executes the consumers from <a href="net/minestom/server/network/ConnectionManager.html#onPacketSend(net.minestom.server.listener.manager.PacketConsumer)"><code>ConnectionManager.onPacketSend(PacketConsumer)</code></a>.</div>
+<div class="block">Executes the consumers from <a href="net/minestom/server/network/ConnectionManager.html#onPacketSend(net.minestom.server.listener.manager.ServerPacketConsumer)"><code>ConnectionManager.onPacketSend(ServerPacketConsumer)</code></a>.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/instance/block/CustomBlock.html#processStage(net.minestom.server.instance.Instance,net.minestom.server.utils.BlockPosition,net.minestom.server.entity.Player,byte)">processStage(Instance, BlockPosition, Player, byte)</a></span> - Method in class net.minestom.server.instance.block.<a href="net/minestom/server/instance/block/CustomBlock.html" title="class in net.minestom.server.instance.block">CustomBlock</a></dt>
 <dd>
@@ -22987,6 +23033,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><a href="net/minestom/server/network/packet/server/ServerPacket.html" title="interface in net.minestom.server.network.packet.server"><span class="typeNameLink">ServerPacket</span></a> - Interface in <a href="net/minestom/server/network/packet/server/package-summary.html">net.minestom.server.network.packet.server</a></dt>
 <dd>
 <div class="block">Represents a packet which can be sent to a player using <a href="net/minestom/server/network/player/PlayerConnection.html#sendPacket(net.minestom.server.network.packet.server.ServerPacket)"><code>PlayerConnection.sendPacket(ServerPacket)</code></a>.</div>
+</dd>
+<dt><a href="net/minestom/server/listener/manager/ServerPacketConsumer.html" title="interface in net.minestom.server.listener.manager"><span class="typeNameLink">ServerPacketConsumer</span></a> - Interface in <a href="net/minestom/server/listener/manager/package-summary.html">net.minestom.server.listener.manager</a></dt>
+<dd>
+<div class="block">Interface used to add a listener for outgoing packets with <a href="net/minestom/server/network/ConnectionManager.html#onPacketSend(net.minestom.server.listener.manager.ServerPacketConsumer)"><code>ConnectionManager.onPacketSend(ServerPacketConsumer)</code></a>.</div>
 </dd>
 <dt><a href="net/minestom/server/network/packet/server/ServerPacketIdentifier.html" title="class in net.minestom.server.network.packet.server"><span class="typeNameLink">ServerPacketIdentifier</span></a> - Class in <a href="net/minestom/server/network/packet/server/package-summary.html">net.minestom.server.network.packet.server</a></dt>
 <dd>&nbsp;</dd>
@@ -25379,6 +25429,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/client/play/ClientEntityActionPacket.Action.html#START_SPRINTING">START_SPRINTING</a></span> - net.minestom.server.network.packet.client.play.<a href="net/minestom/server/network/packet/client/play/ClientEntityActionPacket.Action.html" title="enum in net.minestom.server.network.packet.client.play">ClientEntityActionPacket.Action</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/player/NettyPlayerConnection.html#startCompression()">startCompression()</a></span> - Method in class net.minestom.server.network.player.<a href="net/minestom/server/network/player/NettyPlayerConnection.html" title="class in net.minestom.server.network.player">NettyPlayerConnection</a></dt>
+<dd>
+<div class="block">Enables compression and add a new codec to the pipeline.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/instance/block/CustomBlock.html#startDigging(net.minestom.server.instance.Instance,net.minestom.server.utils.BlockPosition,net.minestom.server.entity.Player)">startDigging(Instance, BlockPosition, Player)</a></span> - Method in class net.minestom.server.instance.block.<a href="net/minestom/server/instance/block/CustomBlock.html" title="class in net.minestom.server.instance.block">CustomBlock</a></dt>
 <dd>
 <div class="block">Called when a player start digging this custom block,
@@ -26663,6 +26717,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/TradeListPacket.html#trades">trades</a></span> - Variable in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/TradeListPacket.html" title="class in net.minestom.server.network.packet.server.play">TradeListPacket</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/TradeListPacket.Trade.html#tradeUsesNumber">tradeUsesNumber</a></span> - Variable in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/TradeListPacket.Trade.html" title="class in net.minestom.server.network.packet.server.play">TradeListPacket.Trade</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/NettyServer.html#TRAFFIC_LIMITER_HANDLER_NAME">TRAFFIC_LIMITER_HANDLER_NAME</a></span> - Static variable in class net.minestom.server.network.netty.<a href="net/minestom/server/network/netty/NettyServer.html" title="class in net.minestom.server.network.netty">NettyServer</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/client/play/ClientTabCompletePacket.html#transactionId">transactionId</a></span> - Variable in class net.minestom.server.network.packet.client.play.<a href="net/minestom/server/network/packet/client/play/ClientTabCompletePacket.html" title="class in net.minestom.server.network.packet.client.play">ClientTabCompletePacket</a></dt>
 <dd>&nbsp;</dd>
