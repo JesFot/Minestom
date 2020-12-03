@@ -26,7 +26,6 @@ net.minestom.server.entity.damage
 net.minestom.server.entity.fakeplayer
 net.minestom.server.entity.hologram
 net.minestom.server.entity.pathfinding
-net.minestom.server.entity.task
 net.minestom.server.entity.type
 net.minestom.server.entity.type.ambient
 net.minestom.server.entity.type.animal
@@ -122,7 +121,9 @@ net.minestom.server.utils.instance
 net.minestom.server.utils.inventory
 net.minestom.server.utils.location
 net.minestom.server.utils.math
+net.minestom.server.utils.ownership
 net.minestom.server.utils.player
+net.minestom.server.utils.position
 net.minestom.server.utils.thread
 net.minestom.server.utils.time
 net.minestom.server.utils.url

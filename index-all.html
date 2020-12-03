@@ -637,9 +637,13 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/item/Material.html#AIR">AIR</a></span> - net.minestom.server.item.<a href="net/minestom/server/item/Material.html" title="enum in net.minestom.server.item">Material</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/arguments/minecraft/SuggestionType.html#ALL_RECIPES">ALL_RECIPES</a></span> - net.minestom.server.command.builder.arguments.minecraft.<a href="net/minestom/server/command/builder/arguments/minecraft/SuggestionType.html" title="enum in net.minestom.server.command.builder.arguments.minecraft">SuggestionType</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/instance/block/Block.html#ALLIUM">ALLIUM</a></span> - net.minestom.server.instance.block.<a href="net/minestom/server/instance/block/Block.html" title="enum in net.minestom.server.instance.block">Block</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/item/Material.html#ALLIUM">ALLIUM</a></span> - net.minestom.server.item.<a href="net/minestom/server/item/Material.html" title="enum in net.minestom.server.item">Material</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/codec/GroupedPacketHandler.html#allocateBuffer(io.netty.channel.ChannelHandlerContext,net.minestom.server.network.netty.packet.FramedPacket,boolean)">allocateBuffer(ChannelHandlerContext, FramedPacket, boolean)</a></span> - Method in class net.minestom.server.network.netty.codec.<a href="net/minestom/server/network/netty/codec/GroupedPacketHandler.html" title="class in net.minestom.server.network.netty.codec">GroupedPacketHandler</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/PlayerAbilitiesPacket.html#allowFlying">allowFlying</a></span> - Variable in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/PlayerAbilitiesPacket.html" title="class in net.minestom.server.network.packet.server.play">PlayerAbilitiesPacket</a></dt>
 <dd>&nbsp;</dd>
@@ -907,6 +911,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="block">Creates a new argument.</div>
 </dd>
+<dt><a href="net/minestom/server/command/builder/arguments/minecraft/registry/ArgumentBlockState.html" title="class in net.minestom.server.command.builder.arguments.minecraft.registry"><span class="typeNameLink">ArgumentBlockState</span></a> - Class in <a href="net/minestom/server/command/builder/arguments/minecraft/registry/package-summary.html">net.minestom.server.command.builder.arguments.minecraft.registry</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/arguments/minecraft/registry/ArgumentBlockState.html#%3Cinit%3E(java.lang.String)">ArgumentBlockState(String)</a></span> - Constructor for class net.minestom.server.command.builder.arguments.minecraft.registry.<a href="net/minestom/server/command/builder/arguments/minecraft/registry/ArgumentBlockState.html" title="class in net.minestom.server.command.builder.arguments.minecraft.registry">ArgumentBlockState</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/command/builder/arguments/ArgumentBoolean.html" title="class in net.minestom.server.command.builder.arguments"><span class="typeNameLink">ArgumentBoolean</span></a> - Class in <a href="net/minestom/server/command/builder/arguments/package-summary.html">net.minestom.server.command.builder.arguments</a></dt>
 <dd>
 <div class="block">Represents a boolean value.</div>
@@ -937,9 +945,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><a href="net/minestom/server/command/builder/arguments/ArgumentDynamicWord.html" title="class in net.minestom.server.command.builder.arguments"><span class="typeNameLink">ArgumentDynamicWord</span></a> - Class in <a href="net/minestom/server/command/builder/arguments/package-summary.html">net.minestom.server.command.builder.arguments</a></dt>
 <dd>
 <div class="block">Same as <a href="net/minestom/server/command/builder/arguments/ArgumentWord.html" title="class in net.minestom.server.command.builder.arguments"><code>ArgumentWord</code></a> with the exception
- that this argument can trigger <a href="net/minestom/server/command/builder/Command.html#onDynamicWrite(java.lang.String)"><code>Command.onDynamicWrite(String)</code></a>.</div>
+ that this argument can trigger <a href="net/minestom/server/command/builder/Command.html#onDynamicWrite(java.lang.String)"><code>Command.onDynamicWrite(String)</code></a>
+ when the suggestion type is <a href="net/minestom/server/command/builder/arguments/minecraft/SuggestionType.html#ASK_SERVER"><code>SuggestionType.ASK_SERVER</code></a>, or any other suggestions available in the enum.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/arguments/ArgumentDynamicWord.html#%3Cinit%3E(java.lang.String)">ArgumentDynamicWord(String)</a></span> - Constructor for class net.minestom.server.command.builder.arguments.<a href="net/minestom/server/command/builder/arguments/ArgumentDynamicWord.html" title="class in net.minestom.server.command.builder.arguments">ArgumentDynamicWord</a></dt>
+<dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/arguments/ArgumentDynamicWord.html#%3Cinit%3E(java.lang.String,net.minestom.server.command.builder.arguments.minecraft.SuggestionType)">ArgumentDynamicWord(String, SuggestionType)</a></span> - Constructor for class net.minestom.server.command.builder.arguments.<a href="net/minestom/server/command/builder/arguments/ArgumentDynamicWord.html" title="class in net.minestom.server.command.builder.arguments">ArgumentDynamicWord</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/command/builder/arguments/minecraft/registry/ArgumentEnchantment.html" title="class in net.minestom.server.command.builder.arguments.minecraft.registry"><span class="typeNameLink">ArgumentEnchantment</span></a> - Class in <a href="net/minestom/server/command/builder/arguments/minecraft/registry/package-summary.html">net.minestom.server.command.builder.arguments.minecraft.registry</a></dt>
 <dd>
@@ -1123,6 +1132,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/particle/Particle.html#ASH">ASH</a></span> - net.minestom.server.particle.<a href="net/minestom/server/particle/Particle.html" title="enum in net.minestom.server.particle">Particle</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/arguments/minecraft/SuggestionType.html#ASK_SERVER">ASK_SERVER</a></span> - net.minestom.server.command.builder.arguments.minecraft.<a href="net/minestom/server/command/builder/arguments/minecraft/SuggestionType.html" title="enum in net.minestom.server.command.builder.arguments.minecraft">SuggestionType</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/Entity.html#askSynchronization()">askSynchronization()</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Entity.html" title="class in net.minestom.server.entity">Entity</a></dt>
 <dd>
 <div class="block">Asks for a synchronization (position) to happen during next entity tick.</div>
@@ -1221,6 +1232,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/binary/BinaryReader.html#available()">available()</a></span> - Method in class net.minestom.server.utils.binary.<a href="net/minestom/server/utils/binary/BinaryReader.html" title="class in net.minestom.server.utils.binary">BinaryReader</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/arguments/minecraft/SuggestionType.html#AVAILABLE_SOUNDS">AVAILABLE_SOUNDS</a></span> - net.minestom.server.command.builder.arguments.minecraft.<a href="net/minestom/server/command/builder/arguments/minecraft/SuggestionType.html" title="enum in net.minestom.server.command.builder.arguments.minecraft">SuggestionType</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/stat/StatisticType.html#AVIATE_ONE_CM">AVIATE_ONE_CM</a></span> - net.minestom.server.stat.<a href="net/minestom/server/stat/StatisticType.html" title="enum in net.minestom.server.stat">StatisticType</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/potion/PotionType.html#AWKWARD">AWKWARD</a></span> - net.minestom.server.potion.<a href="net/minestom/server/potion/PotionType.html" title="enum in net.minestom.server.potion">PotionType</a></dt>
@@ -1315,6 +1328,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/item/Material.html#BAT_SPAWN_EGG">BAT_SPAWN_EGG</a></span> - net.minestom.server.item.<a href="net/minestom/server/item/Material.html" title="enum in net.minestom.server.item">Material</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/effects/Effects.html#BAT_TAKES_OFF">BAT_TAKES_OFF</a></span> - net.minestom.server.effects.<a href="net/minestom/server/effects/Effects.html" title="enum in net.minestom.server.effects">Effects</a></dt>
+<dd>&nbsp;</dd>
+<dt><a href="net/minestom/server/instance/batch/BatchOption.html" title="class in net.minestom.server.instance.batch"><span class="typeNameLink">BatchOption</span></a> - Class in <a href="net/minestom/server/instance/batch/package-summary.html">net.minestom.server.instance.batch</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/instance/batch/BatchOption.html#%3Cinit%3E()">BatchOption()</a></span> - Constructor for class net.minestom.server.instance.batch.<a href="net/minestom/server/instance/batch/BatchOption.html" title="class in net.minestom.server.instance.batch">BatchOption</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/world/biomes/Biome.Category.html#BEACH">BEACH</a></span> - net.minestom.server.world.biomes.<a href="net/minestom/server/world/biomes/Biome.Category.html" title="enum in net.minestom.server.world.biomes">Biome.Category</a></dt>
 <dd>&nbsp;</dd>
@@ -2533,6 +2550,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/instance/batch/BlockBatch.html#%3Cinit%3E(net.minestom.server.instance.InstanceContainer)">BlockBatch(InstanceContainer)</a></span> - Constructor for class net.minestom.server.instance.batch.<a href="net/minestom/server/instance/batch/BlockBatch.html" title="class in net.minestom.server.instance.batch">BlockBatch</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/instance/batch/BlockBatch.html#%3Cinit%3E(net.minestom.server.instance.InstanceContainer,net.minestom.server.instance.batch.BatchOption)">BlockBatch(InstanceContainer, BatchOption)</a></span> - Constructor for class net.minestom.server.instance.batch.<a href="net/minestom/server/instance/batch/BlockBatch.html" title="class in net.minestom.server.instance.batch">BlockBatch</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/network/packet/server/play/BlockBreakAnimationPacket.html" title="class in net.minestom.server.network.packet.server.play"><span class="typeNameLink">BlockBreakAnimationPacket</span></a> - Class in <a href="net/minestom/server/network/packet/server/play/package-summary.html">net.minestom.server.network.packet.server.play</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/BlockBreakAnimationPacket.html#%3Cinit%3E()">BlockBreakAnimationPacket()</a></span> - Constructor for class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/BlockBreakAnimationPacket.html" title="class in net.minestom.server.network.packet.server.play">BlockBreakAnimationPacket</a></dt>
@@ -2674,6 +2693,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/instance/DynamicChunk.html#blocksData">blocksData</a></span> - Variable in class net.minestom.server.instance.<a href="net/minestom/server/instance/DynamicChunk.html" title="class in net.minestom.server.instance">DynamicChunk</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/ChunkDataPacket.html#blocksData">blocksData</a></span> - Variable in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/ChunkDataPacket.html" title="class in net.minestom.server.network.packet.server.play">ChunkDataPacket</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/arguments/ArgumentType.html#BlockState(java.lang.String)">BlockState(String)</a></span> - Static method in class net.minestom.server.command.builder.arguments.<a href="net/minestom/server/command/builder/arguments/ArgumentType.html" title="class in net.minestom.server.command.builder.arguments">ArgumentType</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/AcknowledgePlayerDiggingPacket.html#blockStateId">blockStateId</a></span> - Variable in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/AcknowledgePlayerDiggingPacket.html" title="class in net.minestom.server.network.packet.server.play">AcknowledgePlayerDiggingPacket</a></dt>
 <dd>&nbsp;</dd>
@@ -3193,6 +3214,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span></div>
 &nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/item/Material.html#BUCKET">BUCKET</a></span> - net.minestom.server.item.<a href="net/minestom/server/item/Material.html" title="enum in net.minestom.server.item">Material</a></dt>
+<dd>&nbsp;</dd>
+<dt><a href="net/minestom/server/utils/BufUtils.html" title="class in net.minestom.server.utils"><span class="typeNameLink">BufUtils</span></a> - Class in <a href="net/minestom/server/utils/package-summary.html">net.minestom.server.utils</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/utils/BufUtils.html#%3Cinit%3E()">BufUtils()</a></span> - Constructor for class net.minestom.server.utils.<a href="net/minestom/server/utils/BufUtils.html" title="class in net.minestom.server.utils">BufUtils</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/ping/ResponseData.html#build()">build()</a></span> - Method in class net.minestom.server.ping.<a href="net/minestom/server/ping/ResponseData.html" title="class in net.minestom.server.ping">ResponseData</a></dt>
 <dd>
@@ -3741,6 +3766,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/instance/batch/ChunkBatch.html#%3Cinit%3E(net.minestom.server.instance.InstanceContainer,net.minestom.server.instance.Chunk,boolean)">ChunkBatch(InstanceContainer, Chunk, boolean)</a></span> - Constructor for class net.minestom.server.instance.batch.<a href="net/minestom/server/instance/batch/ChunkBatch.html" title="class in net.minestom.server.instance.batch">ChunkBatch</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/instance/batch/ChunkBatch.html#%3Cinit%3E(net.minestom.server.instance.InstanceContainer,net.minestom.server.instance.Chunk,net.minestom.server.instance.batch.BatchOption,boolean)">ChunkBatch(InstanceContainer, Chunk, BatchOption, boolean)</a></span> - Constructor for class net.minestom.server.instance.batch.<a href="net/minestom/server/instance/batch/ChunkBatch.html" title="class in net.minestom.server.instance.batch">ChunkBatch</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/utils/chunk/ChunkCallback.html" title="interface in net.minestom.server.utils.chunk"><span class="typeNameLink">ChunkCallback</span></a> - Interface in <a href="net/minestom/server/utils/chunk/package-summary.html">net.minestom.server.utils.chunk</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/network/packet/server/play/ChunkDataPacket.html" title="class in net.minestom.server.network.packet.server.play"><span class="typeNameLink">ChunkDataPacket</span></a> - Class in <a href="net/minestom/server/network/packet/server/play/package-summary.html">net.minestom.server.network.packet.server.play</a></dt>
@@ -3813,6 +3840,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/Arguments.html#clear()">clear()</a></span> - Method in class net.minestom.server.command.builder.<a href="net/minestom/server/command/builder/Arguments.html" title="class in net.minestom.server.command.builder">Arguments</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/instance/palette/PaletteStorage.html#clear()">clear()</a></span> - Method in class net.minestom.server.instance.palette.<a href="net/minestom/server/instance/palette/PaletteStorage.html" title="class in net.minestom.server.instance.palette">PaletteStorage</a></dt>
+<dd>
+<div class="block">Clears all the data in the palette and data array.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/inventory/Inventory.html#clear()">clear()</a></span> - Method in class net.minestom.server.inventory.<a href="net/minestom/server/inventory/Inventory.html" title="class in net.minestom.server.inventory">Inventory</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/inventory/InventoryModifier.html#clear()">clear()</a></span> - Method in interface net.minestom.server.inventory.<a href="net/minestom/server/inventory/InventoryModifier.html" title="interface in net.minestom.server.inventory">InventoryModifier</a></dt>
@@ -3820,6 +3851,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <div class="block">Clears the inventory and send relevant update to the viewer(s).</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/inventory/PlayerInventory.html#clear()">clear()</a></span> - Method in class net.minestom.server.inventory.<a href="net/minestom/server/inventory/PlayerInventory.html" title="class in net.minestom.server.inventory">PlayerInventory</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/utils/ownership/OwnershipHandler.html#clearCache(java.util.UUID)">clearCache(UUID)</a></span> - Method in class net.minestom.server.utils.ownership.<a href="net/minestom/server/utils/ownership/OwnershipHandler.html" title="class in net.minestom.server.utils.ownership">OwnershipHandler</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/inventory/click/InventoryClickProcessor.html#clearCache(net.minestom.server.entity.Player)">clearCache(Player)</a></span> - Method in class net.minestom.server.inventory.click.<a href="net/minestom/server/inventory/click/InventoryClickProcessor.html" title="class in net.minestom.server.inventory.click">InventoryClickProcessor</a></dt>
 <dd>&nbsp;</dd>
@@ -4263,7 +4296,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/command/builder/Command.html" title="class in net.minestom.server.command.builder"><span class="typeNameLink">Command</span></a> - Class in <a href="net/minestom/server/command/builder/package-summary.html">net.minestom.server.command.builder</a></dt>
 <dd>
-<div class="block">Represents a command which have suggestion/auto-completion.</div>
+<div class="block">Represents a command which has suggestion/auto-completion.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/Command.html#%3Cinit%3E(java.lang.String)">Command(String)</a></span> - Constructor for class net.minestom.server.command.builder.<a href="net/minestom/server/command/builder/Command.html" title="class in net.minestom.server.command.builder">Command</a></dt>
 <dd>
@@ -4499,8 +4532,6 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/data/DataImpl.html#copy()">copy()</a></span> - Method in class net.minestom.server.data.<a href="net/minestom/server/data/DataImpl.html" title="class in net.minestom.server.data">DataImpl</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/data/NbtDataImpl.html#copy()">copy()</a></span> - Method in class net.minestom.server.data.<a href="net/minestom/server/data/NbtDataImpl.html" title="class in net.minestom.server.data">NbtDataImpl</a></dt>
-<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/data/SerializableDataImpl.html#copy()">copy()</a></span> - Method in class net.minestom.server.data.<a href="net/minestom/server/data/SerializableDataImpl.html" title="class in net.minestom.server.data">SerializableDataImpl</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/instance/InstanceContainer.html#copy()">copy()</a></span> - Method in class net.minestom.server.instance.<a href="net/minestom/server/instance/InstanceContainer.html" title="class in net.minestom.server.instance">InstanceContainer</a></dt>
@@ -4561,7 +4592,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/Position.html#copy(net.minestom.server.utils.Position)">copy(Position)</a></span> - Method in class net.minestom.server.utils.<a href="net/minestom/server/utils/Position.html" title="class in net.minestom.server.utils">Position</a></dt>
 <dd>
-<div class="block">Sets the x/y/z field of this position to the value of <code>position</code>.</div>
+<div class="block">Sets the x/y/z/yaw/pitch fields of this position to the value of <code>position</code>.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/Position.html#copy(net.minestom.server.utils.Vector)">copy(Vector)</a></span> - Method in class net.minestom.server.utils.<a href="net/minestom/server/utils/Position.html" title="class in net.minestom.server.utils">Position</a></dt>
 <dd>
@@ -4575,6 +4606,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/item/metadata/WrittenBookMeta.WrittenBookGeneration.html#COPY_OF_ORIGINAL">COPY_OF_ORIGINAL</a></span> - net.minestom.server.item.metadata.<a href="net/minestom/server/item/metadata/WrittenBookMeta.WrittenBookGeneration.html" title="enum in net.minestom.server.item.metadata">WrittenBookMeta.WrittenBookGeneration</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/utils/Position.html#copyCoordinates(net.minestom.server.utils.Position)">copyCoordinates(Position)</a></span> - Method in class net.minestom.server.utils.<a href="net/minestom/server/utils/Position.html" title="class in net.minestom.server.utils">Position</a></dt>
+<dd>
+<div class="block">Sets the x/y/z fields of this position to the value of <code>position</code>.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/RespawnPacket.html#copyMeta">copyMeta</a></span> - Variable in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/RespawnPacket.html" title="class in net.minestom.server.network.packet.server.play">RespawnPacket</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/ArrayUtils.html#copyToDestination(short%5B%5D,short%5B%5D)">copyToDestination(short[], short[])</a></span> - Static method in class net.minestom.server.utils.<a href="net/minestom/server/utils/ArrayUtils.html" title="class in net.minestom.server.utils">ArrayUtils</a></dt>
@@ -4657,7 +4692,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/gamedata/loottables/LootTableEntryType.html#create(net.minestom.server.gamedata.loottables.LootTableManager,java.lang.String,java.util.List,java.util.List,boolean,java.util.List,int,int)">create(LootTableManager, String, List&lt;Condition&gt;, List&lt;LootTable.Entry&gt;, boolean, List&lt;LootTableFunction&gt;, int, int)</a></span> - Method in interface net.minestom.server.gamedata.loottables.<a href="net/minestom/server/gamedata/loottables/LootTableEntryType.html" title="interface in net.minestom.server.gamedata.loottables">LootTableEntryType</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/SoundEffectPacket.html#create(net.minestom.server.sound.SoundCategory,net.minestom.server.sound.Sound,float,float,float,float,float)">create(SoundCategory, Sound, float, float, float, float, float)</a></span> - Static method in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/SoundEffectPacket.html" title="class in net.minestom.server.network.packet.server.play">SoundEffectPacket</a></dt>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/SoundEffectPacket.html#create(net.minestom.server.sound.SoundCategory,net.minestom.server.sound.Sound,net.minestom.server.utils.Position,float,float)">create(SoundCategory, Sound, Position, float, float)</a></span> - Static method in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/SoundEffectPacket.html" title="class in net.minestom.server.network.packet.server.play">SoundEffectPacket</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/TeamsPacket.Action.html#CREATE_TEAM">CREATE_TEAM</a></span> - net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/TeamsPacket.Action.html" title="enum in net.minestom.server.network.packet.server.play">TeamsPacket.Action</a></dt>
 <dd>
@@ -4711,7 +4746,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="block">Creates a new explosion</div>
 </dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/utils/PacketUtils.html#createFramedPacket(net.minestom.server.network.packet.server.ServerPacket)">createFramedPacket(ServerPacket)</a></span> - Static method in class net.minestom.server.utils.<a href="net/minestom/server/utils/PacketUtils.html" title="class in net.minestom.server.utils">PacketUtils</a></dt>
+<dt><span class="memberNameLink"><a href="net/minestom/server/utils/PacketUtils.html#createFramedPacket(net.minestom.server.network.packet.server.ServerPacket,boolean)">createFramedPacket(ServerPacket, boolean)</a></span> - Static method in class net.minestom.server.utils.<a href="net/minestom/server/utils/PacketUtils.html" title="class in net.minestom.server.utils">PacketUtils</a></dt>
 <dd>
 <div class="block">Creates a "framed packet" (packet which can be send and understood by a Minecraft client)
  from a server packet.</div>
@@ -5495,6 +5530,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/registry/ResourceGatherer.html#DATA_FOLDER">DATA_FOLDER</a></span> - Static variable in class net.minestom.server.registry.<a href="net/minestom/server/registry/ResourceGatherer.html" title="class in net.minestom.server.registry">ResourceGatherer</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/data/SerializableData.html#DATA_MANAGER">DATA_MANAGER</a></span> - Static variable in interface net.minestom.server.data.<a href="net/minestom/server/data/SerializableData.html" title="interface in net.minestom.server.data">SerializableData</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/item/ItemStack.html#DATA_OWNERSHIP">DATA_OWNERSHIP</a></span> - Static variable in class net.minestom.server.item.<a href="net/minestom/server/item/ItemStack.html" title="class in net.minestom.server.item">ItemStack</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/ParticlePacket.html#dataConsumer">dataConsumer</a></span> - Variable in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/ParticlePacket.html" title="class in net.minestom.server.network.packet.server.play">ParticlePacket</a></dt>
 <dd>&nbsp;</dd>
@@ -6332,6 +6369,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/arguments/ArgumentType.html#DynamicWord(java.lang.String)">DynamicWord(String)</a></span> - Static method in class net.minestom.server.command.builder.arguments.<a href="net/minestom/server/command/builder/arguments/ArgumentType.html" title="class in net.minestom.server.command.builder.arguments">ArgumentType</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/arguments/ArgumentType.html#DynamicWord(java.lang.String,net.minestom.server.command.builder.arguments.minecraft.SuggestionType)">DynamicWord(String, SuggestionType)</a></span> - Static method in class net.minestom.server.command.builder.arguments.<a href="net/minestom/server/command/builder/arguments/ArgumentType.html" title="class in net.minestom.server.command.builder.arguments">ArgumentType</a></dt>
+<dd>&nbsp;</dd>
 </dl>
 <a id="I:E">
 <!--   -->
@@ -6618,10 +6657,6 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/CombatEventPacket.html#end(int,java.util.Optional)">end(int, Optional&lt;Entity&gt;)</a></span> - Static method in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/CombatEventPacket.html" title="class in net.minestom.server.network.packet.server.play">CombatEventPacket</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/entity/task/EntityTask.html#end(net.minestom.server.entity.LivingEntity)">end(LivingEntity)</a></span> - Method in class net.minestom.server.entity.task.<a href="net/minestom/server/entity/task/EntityTask.html" title="class in net.minestom.server.entity.task">EntityTask</a></dt>
-<dd>
-<div class="block">Invoked when this task is being ended for this entity.</div>
-</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/CombatEventPacket.EventType.html#END_COMBAT">END_COMBAT</a></span> - net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/CombatEventPacket.EventType.html" title="enum in net.minestom.server.network.packet.server.play">CombatEventPacket.EventType</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/EntityType.html#END_CRYSTAL">END_CRYSTAL</a></span> - net.minestom.server.entity.<a href="net/minestom/server/entity/EntityType.html" title="enum in net.minestom.server.entity">EntityType</a></dt>
@@ -8253,10 +8288,6 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/TagsPacket.html#entityTags">entityTags</a></span> - Variable in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/TagsPacket.html" title="class in net.minestom.server.network.packet.server.play">TagsPacket</a></dt>
 <dd>&nbsp;</dd>
-<dt><a href="net/minestom/server/entity/task/EntityTask.html" title="class in net.minestom.server.entity.task"><span class="typeNameLink">EntityTask</span></a> - Class in <a href="net/minestom/server/entity/task/package-summary.html">net.minestom.server.entity.task</a></dt>
-<dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/entity/task/EntityTask.html#%3Cinit%3E()">EntityTask()</a></span> - Constructor for class net.minestom.server.entity.task.<a href="net/minestom/server/entity/task/EntityTask.html" title="class in net.minestom.server.entity.task">EntityTask</a></dt>
-<dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/network/packet/server/play/EntityTeleportPacket.html" title="class in net.minestom.server.network.packet.server.play"><span class="typeNameLink">EntityTeleportPacket</span></a> - Class in <a href="net/minestom/server/network/packet/server/play/package-summary.html">net.minestom.server.network.packet.server.play</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/EntityTeleportPacket.html#%3Cinit%3E()">EntityTeleportPacket()</a></span> - Constructor for class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/EntityTeleportPacket.html" title="class in net.minestom.server.network.packet.server.play">EntityTeleportPacket</a></dt>
@@ -8370,10 +8401,6 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/command/CommandManager.html#execute(net.minestom.server.command.CommandSender,java.lang.String)">execute(CommandSender, String)</a></span> - Method in class net.minestom.server.command.<a href="net/minestom/server/command/CommandManager.html" title="class in net.minestom.server.command">CommandManager</a></dt>
 <dd>
 <div class="block">Executes a command for a <a href="net/minestom/server/command/ConsoleSender.html" title="class in net.minestom.server.command"><code>ConsoleSender</code></a>.</div>
-</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/entity/task/EntityTask.html#execute(net.minestom.server.entity.LivingEntity)">execute(LivingEntity)</a></span> - Method in class net.minestom.server.entity.task.<a href="net/minestom/server/entity/task/EntityTask.html" title="class in net.minestom.server.entity.task">EntityTask</a></dt>
-<dd>
-<div class="block">Invoked each tick when this task is being executed for this entity.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/callback/OptionalCallback.html#execute(net.minestom.server.utils.chunk.ChunkCallback,net.minestom.server.instance.Chunk)">execute(ChunkCallback, Chunk)</a></span> - Static method in class net.minestom.server.utils.callback.<a href="net/minestom/server/utils/callback/OptionalCallback.html" title="class in net.minestom.server.utils.callback">OptionalCallback</a></dt>
 <dd>
@@ -8891,8 +8918,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/entity/ai/goal/FollowTargetGoal.html" title="class in net.minestom.server.entity.ai.goal"><span class="typeNameLink">FollowTargetGoal</span></a> - Class in <a href="net/minestom/server/entity/ai/goal/package-summary.html">net.minestom.server.entity.ai.goal</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/entity/ai/goal/FollowTargetGoal.html#%3Cinit%3E(net.minestom.server.entity.EntityCreature)">FollowTargetGoal(EntityCreature)</a></span> - Constructor for class net.minestom.server.entity.ai.goal.<a href="net/minestom/server/entity/ai/goal/FollowTargetGoal.html" title="class in net.minestom.server.entity.ai.goal">FollowTargetGoal</a></dt>
-<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/ai/goal/FollowTargetGoal.html#%3Cinit%3E(net.minestom.server.entity.EntityCreature,net.minestom.server.utils.time.UpdateOption)">FollowTargetGoal(EntityCreature, UpdateOption)</a></span> - Constructor for class net.minestom.server.entity.ai.goal.<a href="net/minestom/server/entity/ai/goal/FollowTargetGoal.html" title="class in net.minestom.server.entity.ai.goal">FollowTargetGoal</a></dt>
+<dd>
+<div class="block">Creates a follow target goal object.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/UpdateHealthPacket.html#food">food</a></span> - Variable in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/UpdateHealthPacket.html" title="class in net.minestom.server.network.packet.server.play">UpdateHealthPacket</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/UpdateHealthPacket.html#foodSaturation">foodSaturation</a></span> - Variable in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/UpdateHealthPacket.html" title="class in net.minestom.server.network.packet.server.play">UpdateHealthPacket</a></dt>
@@ -9137,6 +9166,14 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="block">Called when the blocks in the <a href="net/minestom/server/instance/Chunk.html" title="class in net.minestom.server.instance"><code>Chunk</code></a> should be set using <a href="net/minestom/server/instance/BlockModifier.html#setBlock(int,int,int,net.minestom.server.instance.block.Block)"><code>BlockModifier.setBlock(int, int, int, Block)</code></a>
  or similar.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/Entity.html#generateId()">generateId()</a></span> - Static method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Entity.html" title="class in net.minestom.server.entity">Entity</a></dt>
+<dd>
+<div class="block">Generate and return a new unique entity id.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/utils/ownership/OwnershipHandler.html#generateIdentifier()">generateIdentifier()</a></span> - Method in class net.minestom.server.utils.ownership.<a href="net/minestom/server/utils/ownership/OwnershipHandler.html" title="class in net.minestom.server.utils.ownership">OwnershipHandler</a></dt>
+<dd>
+<div class="block">Generates a new unique identifier.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/extras/mojangAuth/MojangCrypt.html#generateKeyPair()">generateKeyPair()</a></span> - Static method in class net.minestom.server.extras.mojangAuth.<a href="net/minestom/server/extras/mojangAuth/MojangCrypt.html" title="class in net.minestom.server.extras.mojangAuth">MojangCrypt</a></dt>
 <dd>&nbsp;</dd>
@@ -9450,6 +9487,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/chunk/ChunkUtils.html#getBlockPosition(int,int,int)">getBlockPosition(int, int, int)</a></span> - Static method in class net.minestom.server.utils.chunk.<a href="net/minestom/server/utils/chunk/ChunkUtils.html" title="class in net.minestom.server.utils.chunk">ChunkUtils</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/Arguments.html#getBlockState(java.lang.String)">getBlockState(String)</a></span> - Method in class net.minestom.server.command.builder.<a href="net/minestom/server/command/builder/Arguments.html" title="class in net.minestom.server.command.builder">Arguments</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/event/player/PlayerBlockBreakEvent.html#getBlockStateId()">getBlockStateId()</a></span> - Method in class net.minestom.server.event.player.<a href="net/minestom/server/event/player/PlayerBlockBreakEvent.html" title="class in net.minestom.server.event.player">PlayerBlockBreakEvent</a></dt>
 <dd>
 <div class="block">Gets the broken block state id.</div>
@@ -9553,6 +9592,18 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="block">Gets the raw buffer used by this binary writer.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/utils/BufUtils.html#getBuffer()">getBuffer()</a></span> - Static method in class net.minestom.server.utils.<a href="net/minestom/server/utils/BufUtils.html" title="class in net.minestom.server.utils">BufUtils</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/utils/BufUtils.html#getBuffer(boolean)">getBuffer(boolean)</a></span> - Static method in class net.minestom.server.utils.<a href="net/minestom/server/utils/BufUtils.html" title="class in net.minestom.server.utils">BufUtils</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/utils/BufUtils.html#getBuffer(boolean,int)">getBuffer(boolean, int)</a></span> - Static method in class net.minestom.server.utils.<a href="net/minestom/server/utils/BufUtils.html" title="class in net.minestom.server.utils">BufUtils</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/utils/BufUtils.html#getBuffer(boolean,int,int)">getBuffer(boolean, int, int)</a></span> - Static method in class net.minestom.server.utils.<a href="net/minestom/server/utils/BufUtils.html" title="class in net.minestom.server.utils">BufUtils</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/utils/BufUtils.html#getBuffer(int)">getBuffer(int)</a></span> - Static method in class net.minestom.server.utils.<a href="net/minestom/server/utils/BufUtils.html" title="class in net.minestom.server.utils">BufUtils</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/utils/BufUtils.html#getBuffer(int,int)">getBuffer(int, int)</a></span> - Static method in class net.minestom.server.utils.<a href="net/minestom/server/utils/BufUtils.html" title="class in net.minestom.server.utils">BufUtils</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/player/NettyPlayerConnection.html#getBungeeSkin()">getBungeeSkin()</a></span> - Method in class net.minestom.server.network.player.<a href="net/minestom/server/network/player/NettyPlayerConnection.html" title="class in net.minestom.server.network.player">NettyPlayerConnection</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/player/NettyPlayerConnection.html#getBungeeUuid()">getBungeeUuid()</a></span> - Method in class net.minestom.server.network.player.<a href="net/minestom/server/network/player/NettyPlayerConnection.html" title="class in net.minestom.server.network.player">NettyPlayerConnection</a></dt>
@@ -10200,6 +10251,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="block">Creates the <a href="net/minestom/server/network/packet/server/play/DisplayScoreboardPacket.html" title="class in net.minestom.server.network.packet.server.play"><code>DisplayScoreboardPacket</code></a></div>
 </dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/utils/Position.html#getDistance(float,float,float)">getDistance(float, float, float)</a></span> - Method in class net.minestom.server.utils.<a href="net/minestom/server/utils/Position.html" title="class in net.minestom.server.utils">Position</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/Entity.html#getDistance(net.minestom.server.entity.Entity)">getDistance(Entity)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Entity.html" title="class in net.minestom.server.entity">Entity</a></dt>
 <dd>
 <div class="block">Gets the distance between two entities.</div>
@@ -10327,6 +10380,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/Entity.html#getEntity(int)">getEntity(int)</a></span> - Static method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Entity.html" title="class in net.minestom.server.entity">Entity</a></dt>
 <dd>
 <div class="block">Gets an entity based on its id (from <a href="net/minestom/server/entity/Entity.html#getEntityId()"><code>Entity.getEntityId()</code></a>).</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/ai/GoalSelector.html#getEntityCreature()">getEntityCreature()</a></span> - Method in class net.minestom.server.entity.ai.<a href="net/minestom/server/entity/ai/GoalSelector.html" title="class in net.minestom.server.entity.ai">GoalSelector</a></dt>
+<dd>
+<div class="block">Gets the entity behind the goal selector.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/ai/TargetSelector.html#getEntityCreature()">getEntityCreature()</a></span> - Method in class net.minestom.server.entity.ai.<a href="net/minestom/server/entity/ai/TargetSelector.html" title="class in net.minestom.server.entity.ai">TargetSelector</a></dt>
 <dd>
@@ -10912,6 +10969,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <div class="block">Gets the identifier of this advancement, used to register the advancement, use it as a parent and to retrieve it later
  in the <a href="net/minestom/server/advancements/AdvancementTab.html" title="class in net.minestom.server.advancements"><code>AdvancementTab</code></a>.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/arguments/minecraft/SuggestionType.html#getIdentifier()">getIdentifier()</a></span> - Method in enum net.minestom.server.command.builder.arguments.minecraft.<a href="net/minestom/server/command/builder/arguments/minecraft/SuggestionType.html" title="enum in net.minestom.server.command.builder.arguments.minecraft">SuggestionType</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/damage/DamageType.html#getIdentifier()">getIdentifier()</a></span> - Method in class net.minestom.server.entity.damage.<a href="net/minestom/server/entity/damage/DamageType.html" title="class in net.minestom.server.entity.damage">DamageType</a></dt>
 <dd>
 <div class="block">Gets the identifier of this damage type.</div>
@@ -10928,6 +10987,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/instance/Chunk.html#getIdentifier()">getIdentifier()</a></span> - Method in class net.minestom.server.instance.<a href="net/minestom/server/instance/Chunk.html" title="class in net.minestom.server.instance">Chunk</a></dt>
 <dd>
 <div class="block">Gets the unique identifier of this chunk.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/item/ItemStack.html#getIdentifier()">getIdentifier()</a></span> - Method in class net.minestom.server.item.<a href="net/minestom/server/item/ItemStack.html" title="class in net.minestom.server.item">ItemStack</a></dt>
+<dd>
+<div class="block">Gets the unique identifier of this object.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/ChunkDataPacket.html#getIdentifier()">getIdentifier()</a></span> - Method in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/ChunkDataPacket.html" title="class in net.minestom.server.network.packet.server.play">ChunkDataPacket</a></dt>
 <dd>&nbsp;</dd>
@@ -11166,7 +11229,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/cache/TemporaryCache.html#getKeepTime()">getKeepTime()</a></span> - Method in class net.minestom.server.utils.cache.<a href="net/minestom/server/utils/cache/TemporaryCache.html" title="class in net.minestom.server.utils.cache">TemporaryCache</a></dt>
 <dd>
-<div class="block">Gets the time an object will be kept without being retrieved</div>
+<div class="block">Gets the time an object will be kept without being retrieved.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/attribute/Attribute.html#getKey()">getKey()</a></span> - Method in class net.minestom.server.attribute.<a href="net/minestom/server/attribute/Attribute.html" title="class in net.minestom.server.attribute">Attribute</a></dt>
 <dd>
@@ -11242,6 +11305,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/inventory/type/EnchantmentTableInventory.html#getLevelRequirement(net.minestom.server.inventory.type.EnchantmentTableInventory.EnchantmentSlot)">getLevelRequirement(EnchantmentTableInventory.EnchantmentSlot)</a></span> - Method in class net.minestom.server.inventory.type.<a href="net/minestom/server/inventory/type/EnchantmentTableInventory.html" title="class in net.minestom.server.inventory.type">EnchantmentTableInventory</a></dt>
 <dd>
 <div class="block">Gets the level requirement in a slot.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/instance/Chunk.html#getLightPacket()">getLightPacket()</a></span> - Method in class net.minestom.server.instance.<a href="net/minestom/server/instance/Chunk.html" title="class in net.minestom.server.instance">Chunk</a></dt>
+<dd>
+<div class="block">Gets the light packet of this chunk.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/scoreboard/Sidebar.ScoreboardLine.html#getLine()">getLine()</a></span> - Method in class net.minestom.server.scoreboard.<a href="net/minestom/server/scoreboard/Sidebar.ScoreboardLine.html" title="class in net.minestom.server.scoreboard">Sidebar.ScoreboardLine</a></dt>
 <dd>
@@ -11584,14 +11651,16 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="block">Gets the tag visibility of the team.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/EntityCreature.html#getNavigableEntity()">getNavigableEntity()</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/EntityCreature.html" title="class in net.minestom.server.entity">EntityCreature</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/NavigableEntity.html#getNavigableEntity()">getNavigableEntity()</a></span> - Method in interface net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/NavigableEntity.html" title="interface in net.minestom.server.entity.pathfinding">NavigableEntity</a></dt>
+<dd>
+<div class="block">Gets the entity concerned by this navigable implementation.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/Arguments.html#getNBT(java.lang.String)">getNBT(String)</a></span> - Method in class net.minestom.server.command.builder.<a href="net/minestom/server/command/builder/Arguments.html" title="class in net.minestom.server.command.builder">Arguments</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/Arguments.html#getNbtCompound(java.lang.String)">getNbtCompound(String)</a></span> - Method in class net.minestom.server.command.builder.<a href="net/minestom/server/command/builder/Arguments.html" title="class in net.minestom.server.command.builder">Arguments</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/item/ItemStack.html#getNBTConsumer()">getNBTConsumer()</a></span> - Method in class net.minestom.server.item.<a href="net/minestom/server/item/ItemStack.html" title="class in net.minestom.server.item">ItemStack</a></dt>
-<dd>
-<div class="block">Gets the <a href="net/minestom/server/item/NBTConsumer.html" title="interface in net.minestom.server.item"><code>NBTConsumer</code></a> called when the item is serialized into a packet.</div>
-</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/chunk/ChunkUtils.html#getNeighbours(net.minestom.server.instance.Instance,int,int)">getNeighbours(Instance, int, int)</a></span> - Static method in class net.minestom.server.utils.chunk.<a href="net/minestom/server/utils/chunk/ChunkUtils.html" title="class in net.minestom.server.utils.chunk">ChunkUtils</a></dt>
 <dd>
 <div class="block">Gets all the loaded neighbours of a chunk and itself, no diagonals.</div>
@@ -11599,6 +11668,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/MinecraftServer.html#getNettyServer()">getNettyServer()</a></span> - Static method in class net.minestom.server.<a href="net/minestom/server/MinecraftServer.html" title="class in net.minestom.server">MinecraftServer</a></dt>
 <dd>
 <div class="block">Gets the netty server.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/MinecraftServer.html#getNettyThreadCount()">getNettyThreadCount()</a></span> - Static method in class net.minestom.server.<a href="net/minestom/server/MinecraftServer.html" title="class in net.minestom.server">MinecraftServer</a></dt>
+<dd>
+<div class="block">Gets the number of threads used by Netty.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/event/inventory/InventoryCloseEvent.html#getNewInventory()">getNewInventory()</a></span> - Method in class net.minestom.server.event.inventory.<a href="net/minestom/server/event/inventory/InventoryCloseEvent.html" title="class in net.minestom.server.event.inventory">InventoryCloseEvent</a></dt>
 <dd>
@@ -11690,6 +11763,14 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/NamespaceIDHashMap.html#getOrDefault(java.lang.String,V)">getOrDefault(String, V)</a></span> - Method in class net.minestom.server.utils.<a href="net/minestom/server/utils/NamespaceIDHashMap.html" title="class in net.minestom.server.utils">NamespaceIDHashMap</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/utils/ownership/OwnershipHandler.html#getOwnObject(java.util.UUID)">getOwnObject(UUID)</a></span> - Method in class net.minestom.server.utils.ownership.<a href="net/minestom/server/utils/ownership/OwnershipHandler.html" title="class in net.minestom.server.utils.ownership">OwnershipHandler</a></dt>
+<dd>
+<div class="block">Retrieves the owned object based on its identifier.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/EntityPositionAndRotationPacket.html#getPacket(int,net.minestom.server.utils.Position,net.minestom.server.utils.Position,boolean)">getPacket(int, Position, Position, boolean)</a></span> - Static method in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/EntityPositionAndRotationPacket.html" title="class in net.minestom.server.network.packet.server.play">EntityPositionAndRotationPacket</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/EntityPositionPacket.html#getPacket(int,net.minestom.server.utils.Position,net.minestom.server.utils.Position,boolean)">getPacket(int, Position, Position, boolean)</a></span> - Static method in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/EntityPositionPacket.html" title="class in net.minestom.server.network.packet.server.play">EntityPositionPacket</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/player/PlayerConnection.html#getPacketCounter()">getPacketCounter()</a></span> - Method in class net.minestom.server.network.player.<a href="net/minestom/server/network/player/PlayerConnection.html" title="class in net.minestom.server.network.player">PlayerConnection</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/client/handler/ClientPacketsHandler.html#getPacketInstance(int)">getPacketInstance(int)</a></span> - Method in class net.minestom.server.network.packet.client.handler.<a href="net/minestom/server/network/packet/client/handler/ClientPacketsHandler.html" title="class in net.minestom.server.network.packet.client.handler">ClientPacketsHandler</a></dt>
@@ -11740,17 +11821,31 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/Entity.html#getPassengersPacket()">getPassengersPacket()</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Entity.html" title="class in net.minestom.server.entity">Entity</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/EntityCreature.html#getPath()">getPath()</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/EntityCreature.html" title="class in net.minestom.server.entity">EntityCreature</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/NavigableEntity.html#getPath()">getPath()</a></span> - Method in interface net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/NavigableEntity.html" title="interface in net.minestom.server.entity.pathfinding">NavigableEntity</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/NamespaceID.html#getPath()">getPath()</a></span> - Method in class net.minestom.server.utils.<a href="net/minestom/server/utils/NamespaceID.html" title="class in net.minestom.server.utils">NamespaceID</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/NamespaceID.html#getPath(java.lang.String)">getPath(String)</a></span> - Static method in class net.minestom.server.utils.<a href="net/minestom/server/utils/NamespaceID.html" title="class in net.minestom.server.utils">NamespaceID</a></dt>
 <dd>
 <div class="block">Extracts the path from the namespace ID.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/EntityCreature.html#getPathFinder()">getPathFinder()</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/EntityCreature.html" title="class in net.minestom.server.entity">EntityCreature</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/NavigableEntity.html#getPathFinder()">getPathFinder()</a></span> - Method in interface net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/NavigableEntity.html" title="interface in net.minestom.server.entity.pathfinding">NavigableEntity</a></dt>
+<dd>
+<div class="block">Gets the assigned pathfinder.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/EntityCreature.html#getPathingEntity()">getPathingEntity()</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/EntityCreature.html" title="class in net.minestom.server.entity">EntityCreature</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/NavigableEntity.html#getPathingEntity()">getPathingEntity()</a></span> - Method in interface net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/NavigableEntity.html" title="interface in net.minestom.server.entity.pathfinding">NavigableEntity</a></dt>
 <dd>
 <div class="block">Gets the pathing entity.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/EntityCreature.html#getPathPosition()">getPathPosition()</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/EntityCreature.html" title="class in net.minestom.server.entity">EntityCreature</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/NavigableEntity.html#getPathPosition()">getPathPosition()</a></span> - Method in interface net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/NavigableEntity.html" title="interface in net.minestom.server.entity.pathfinding">NavigableEntity</a></dt>
 <dd>
 <div class="block">Gets the target pathfinder position.</div>
 </dd>
@@ -12111,6 +12206,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="block">Gets the red component.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/arguments/minecraft/registry/ArgumentBlockState.html#getRegistry(java.lang.String)">getRegistry(String)</a></span> - Method in class net.minestom.server.command.builder.arguments.minecraft.registry.<a href="net/minestom/server/command/builder/arguments/minecraft/registry/ArgumentBlockState.html" title="class in net.minestom.server.command.builder.arguments.minecraft.registry">ArgumentBlockState</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/arguments/minecraft/registry/ArgumentEnchantment.html#getRegistry(java.lang.String)">getRegistry(String)</a></span> - Method in class net.minestom.server.command.builder.arguments.minecraft.registry.<a href="net/minestom/server/command/builder/arguments/minecraft/registry/ArgumentEnchantment.html" title="class in net.minestom.server.command.builder.arguments.minecraft.registry">ArgumentEnchantment</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/arguments/minecraft/registry/ArgumentEntityType.html#getRegistry(java.lang.String)">getRegistry(String)</a></span> - Method in class net.minestom.server.command.builder.arguments.minecraft.registry.<a href="net/minestom/server/command/builder/arguments/minecraft/registry/ArgumentEntityType.html" title="class in net.minestom.server.command.builder.arguments.minecraft.registry">ArgumentEntityType</a></dt>
@@ -12308,6 +12405,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="block">Gets a <code>Collection</code> with all the registered shutdown <a href="net/minestom/server/timer/Task.html" title="class in net.minestom.server.timer"><code>Task</code></a>.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/ConnectionManager.html#getShutdownText()">getShutdownText()</a></span> - Method in class net.minestom.server.network.<a href="net/minestom/server/network/ConnectionManager.html" title="class in net.minestom.server.network">ConnectionManager</a></dt>
+<dd>
+<div class="block">Gets the kick reason when the server is shutdown using <a href="net/minestom/server/MinecraftServer.html#stopCleanly()"><code>MinecraftServer.stopCleanly()</code></a>.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/extras/selfmodification/mixins/MixinPlatformAgentMinestom.html#getSideName()">getSideName()</a></span> - Method in class net.minestom.server.extras.selfmodification.mixins.<a href="net/minestom/server/extras/selfmodification/mixins/MixinPlatformAgentMinestom.html" title="class in net.minestom.server.extras.selfmodification.mixins">MixinPlatformAgentMinestom</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/vehicle/PlayerVehicleInformation.html#getSideways()">getSideways()</a></span> - Method in class net.minestom.server.entity.vehicle.<a href="net/minestom/server/entity/vehicle/PlayerVehicleInformation.html" title="class in net.minestom.server.entity.vehicle">PlayerVehicleInformation</a></dt>
@@ -12457,6 +12558,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/scoreboard/Team.html#getSuffix()">getSuffix()</a></span> - Method in class net.minestom.server.scoreboard.<a href="net/minestom/server/scoreboard/Team.html" title="class in net.minestom.server.scoreboard">Team</a></dt>
 <dd>
 <div class="block">Gets the suffix of the team.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/arguments/ArgumentDynamicWord.html#getSuggestionType()">getSuggestionType()</a></span> - Method in class net.minestom.server.command.builder.arguments.<a href="net/minestom/server/command/builder/arguments/ArgumentDynamicWord.html" title="class in net.minestom.server.command.builder.arguments">ArgumentDynamicWord</a></dt>
+<dd>
+<div class="block">Gets the suggestion type of this argument.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/Command.html#getSyntaxes()">getSyntaxes()</a></span> - Method in class net.minestom.server.command.builder.<a href="net/minestom/server/command/builder/Command.html" title="class in net.minestom.server.command.builder">Command</a></dt>
 <dd>
@@ -13461,6 +13566,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="block">Gets the noGravity metadata field.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/MinecraftServer.html#hasPacketCaching()">hasPacketCaching()</a></span> - Static method in class net.minestom.server.<a href="net/minestom/server/MinecraftServer.html" title="class in net.minestom.server">MinecraftServer</a></dt>
+<dd>
+<div class="block">Gets if the packet caching feature is enabled.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/Entity.html#hasPassenger()">hasPassenger()</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Entity.html" title="class in net.minestom.server.entity">Entity</a></dt>
 <dd>
 <div class="block">Gets if the entity has any passenger.</div>
@@ -13832,6 +13941,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/extras/selfmodification/mixins/MixinPlatformAgentMinestom.html#init()">init()</a></span> - Method in class net.minestom.server.extras.selfmodification.mixins.<a href="net/minestom/server/extras/selfmodification/mixins/MixinPlatformAgentMinestom.html" title="class in net.minestom.server.extras.selfmodification.mixins">MixinPlatformAgentMinestom</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/MinecraftServer.html#init()">init()</a></span> - Static method in class net.minestom.server.<a href="net/minestom/server/MinecraftServer.html" title="class in net.minestom.server">MinecraftServer</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/NettyServer.html#init()">init()</a></span> - Method in class net.minestom.server.network.netty.<a href="net/minestom/server/network/netty/NettyServer.html" title="class in net.minestom.server.network.netty">NettyServer</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/instance/WorldBorder.html#init(net.minestom.server.entity.Player)">init(Player)</a></span> - Method in class net.minestom.server.instance.<a href="net/minestom/server/instance/WorldBorder.html" title="class in net.minestom.server.instance">WorldBorder</a></dt>
 <dd>
@@ -15729,6 +15840,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/TradeListPacket.Trade.html#inputItem2">inputItem2</a></span> - Variable in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/TradeListPacket.Trade.html" title="class in net.minestom.server.network.packet.server.play">TradeListPacket.Trade</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/utils/Position.html#inSameChunk(net.minestom.server.utils.Position)">inSameChunk(Position)</a></span> - Method in class net.minestom.server.utils.<a href="net/minestom/server/utils/Position.html" title="class in net.minestom.server.utils">Position</a></dt>
+<dd>
+<div class="block">Gets if two positions are in the same chunk.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/client/play/ClientPlayerBlockPlacementPacket.html#insideBlock">insideBlock</a></span> - Variable in class net.minestom.server.network.packet.client.play.<a href="net/minestom/server/network/packet/client/play/ClientPlayerBlockPlacementPacket.html" title="class in net.minestom.server.network.packet.client.play">ClientPlayerBlockPlacementPacket</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/stat/StatisticType.html#INSPECT_DISPENSER">INSPECT_DISPENSER</a></span> - net.minestom.server.stat.<a href="net/minestom/server/stat/StatisticType.html" title="enum in net.minestom.server.stat">StatisticType</a></dt>
@@ -16073,6 +16188,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html#isAquaphobic()">isAquaphobic()</a></span> - Method in class net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html" title="class in net.minestom.server.entity.pathfinding">PFPathingEntity</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html#isAquatic()">isAquatic()</a></span> - Method in class net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html" title="class in net.minestom.server.entity.pathfinding">PFPathingEntity</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/item/Material.html#isArmor()">isArmor()</a></span> - Method in enum net.minestom.server.item.<a href="net/minestom/server/item/Material.html" title="enum in net.minestom.server.item">Material</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/type/monster/EntityGhast.html#isAttacking()">isAttacking()</a></span> - Method in class net.minestom.server.entity.type.monster.<a href="net/minestom/server/entity/type/monster/EntityGhast.html" title="class in net.minestom.server.entity.type.monster">EntityGhast</a></dt>
@@ -16083,6 +16200,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
  This can be use to complete control over which player can see it, without having to deal with
  raw packets.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html#isAvian()">isAvian()</a></span> - Method in class net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html" title="class in net.minestom.server.entity.pathfinding">PFPathingEntity</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html#isAvoidsDoorways()">isAvoidsDoorways()</a></span> - Method in class net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html" title="class in net.minestom.server.entity.pathfinding">PFPathingEntity</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/type/monster/EntityZombie.html#isBaby()">isBaby()</a></span> - Method in class net.minestom.server.entity.type.monster.<a href="net/minestom/server/entity/type/monster/EntityZombie.html" title="class in net.minestom.server.entity.type.monster">EntityZombie</a></dt>
@@ -16231,6 +16350,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/item/Material.html#isFood()">isFood()</a></span> - Method in enum net.minestom.server.item.<a href="net/minestom/server/item/Material.html" title="enum in net.minestom.server.item">Material</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/instance/batch/BatchOption.html#isFullChunk()">isFullChunk()</a></span> - Method in class net.minestom.server.instance.batch.<a href="net/minestom/server/instance/batch/BatchOption.html" title="class in net.minestom.server.instance.batch">BatchOption</a></dt>
+<dd>
+<div class="block">Gets if the batch is responsible for composing the whole chunk.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/PFBlockDescription.html#isFullyBounded()">isFullyBounded()</a></span> - Method in class net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/PFBlockDescription.html" title="class in net.minestom.server.entity.pathfinding">PFBlockDescription</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/PFBlockObject.html#isFullyBounded()">isFullyBounded()</a></span> - Method in class net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/PFBlockObject.html" title="class in net.minestom.server.entity.pathfinding">PFBlockObject</a></dt>
@@ -16498,6 +16621,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/MinecraftServer.html#isStarted()">isStarted()</a></span> - Static method in class net.minestom.server.<a href="net/minestom/server/MinecraftServer.html" title="class in net.minestom.server">MinecraftServer</a></dt>
 <dd>
 <div class="block">Gets if the server is up and running.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/MinecraftServer.html#isStopping()">isStopping()</a></span> - Static method in class net.minestom.server.<a href="net/minestom/server/MinecraftServer.html" title="class in net.minestom.server">MinecraftServer</a></dt>
+<dd>
+<div class="block">Gets if the server is currently being shutdown using <a href="net/minestom/server/MinecraftServer.html#stopCleanly()"><code>MinecraftServer.stopCleanly()</code></a>.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html#isSwimmer()">isSwimmer()</a></span> - Method in class net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html" title="class in net.minestom.server.entity.pathfinding">PFPathingEntity</a></dt>
 <dd>&nbsp;</dd>
@@ -16789,7 +16916,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/item/Material.html#JUKEBOX">JUKEBOX</a></span> - net.minestom.server.item.<a href="net/minestom/server/item/Material.html" title="enum in net.minestom.server.item">Material</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/entity/EntityCreature.html#jump(float)">jump(float)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/EntityCreature.html" title="class in net.minestom.server.entity">EntityCreature</a></dt>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/NavigableEntity.html#jump(float)">jump(float)</a></span> - Method in interface net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/NavigableEntity.html" title="interface in net.minestom.server.entity.pathfinding">NavigableEntity</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/stat/StatisticType.html#JUMP">JUMP</a></span> - net.minestom.server.stat.<a href="net/minestom/server/stat/StatisticType.html" title="enum in net.minestom.server.stat">StatisticType</a></dt>
 <dd>&nbsp;</dd>
@@ -17004,8 +17131,6 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/AdvancementsPacket.AdvancementMapping.html#key">key</a></span> - Variable in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/AdvancementsPacket.AdvancementMapping.html" title="class in net.minestom.server.network.packet.server.play">AdvancementsPacket.AdvancementMapping</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/AdvancementsPacket.ProgressMapping.html#key">key</a></span> - Variable in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/AdvancementsPacket.ProgressMapping.html" title="class in net.minestom.server.network.packet.server.play">AdvancementsPacket.ProgressMapping</a></dt>
-<dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/data/NbtDataImpl.html#KEY_PREFIX">KEY_PREFIX</a></span> - Static variable in class net.minestom.server.data.<a href="net/minestom/server/data/NbtDataImpl.html" title="class in net.minestom.server.data">NbtDataImpl</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/Player.html#kick(java.lang.String)">kick(String)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Player.html" title="class in net.minestom.server.entity">Player</a></dt>
 <dd>
@@ -17752,6 +17877,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/codec/PacketFramer.html#LOGGER">LOGGER</a></span> - Static variable in class net.minestom.server.network.netty.codec.<a href="net/minestom/server/network/netty/codec/PacketFramer.html" title="class in net.minestom.server.network.netty.codec">PacketFramer</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/netty/NettyServer.html#LOGGER">LOGGER</a></span> - Static variable in class net.minestom.server.network.netty.<a href="net/minestom/server/network/netty/NettyServer.html" title="class in net.minestom.server.network.netty">NettyServer</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/debug/DebugUtils.html#LOGGER">LOGGER</a></span> - Static variable in class net.minestom.server.utils.debug.<a href="net/minestom/server/utils/debug/DebugUtils.html" title="class in net.minestom.server.utils.debug">DebugUtils</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/world/DimensionType.DimensionTypeBuilder.html#logicalHeight(int)">logicalHeight(int)</a></span> - Method in class net.minestom.server.world.<a href="net/minestom/server/world/DimensionType.DimensionTypeBuilder.html" title="class in net.minestom.server.world">DimensionType.DimensionTypeBuilder</a></dt>
@@ -17829,6 +17956,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/ParticlePacket.html#longDistance">longDistance</a></span> - Variable in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/ParticlePacket.html" title="class in net.minestom.server.network.packet.server.play">ParticlePacket</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/SerializerUtils.html#longToBlockPosition(long)">longToBlockPosition(long)</a></span> - Static method in class net.minestom.server.utils.<a href="net/minestom/server/utils/SerializerUtils.html" title="class in net.minestom.server.utils">SerializerUtils</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/utils/position/PositionUtils.html#lookAlong(net.minestom.server.utils.Position,float,float,float)">lookAlong(Position, float, float, float)</a></span> - Static method in class net.minestom.server.utils.position.<a href="net/minestom/server/utils/position/PositionUtils.html" title="class in net.minestom.server.utils.position">PositionUtils</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/instance/block/states/Loom.html" title="class in net.minestom.server.instance.block.states"><span class="typeNameLink">Loom</span></a> - Class in <a href="net/minestom/server/instance/block/states/package-summary.html">net.minestom.server.instance.block.states</a></dt>
 <dd>
@@ -18356,7 +18485,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html#moveTo(com.extollit.linalg.immutable.Vec3d,com.extollit.gaming.ai.path.model.Passibility,com.extollit.gaming.ai.path.model.Gravitation)">moveTo(Vec3d, Passibility, Gravitation)</a></span> - Method in class net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html" title="class in net.minestom.server.entity.pathfinding">PFPathingEntity</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/entity/EntityCreature.html#moveTowards(net.minestom.server.utils.Position,float)">moveTowards(Position, float)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/EntityCreature.html" title="class in net.minestom.server.entity">EntityCreature</a></dt>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/NavigableEntity.html#moveTowards(net.minestom.server.utils.Position,float)">moveTowards(Position, float)</a></span> - Method in interface net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/NavigableEntity.html" title="interface in net.minestom.server.entity.pathfinding">NavigableEntity</a></dt>
 <dd>
 <div class="block">Used to move the entity toward <code>direction</code> in the X and Z axis
  Gravity is still applied but the entity will not attempt to jump
@@ -18588,19 +18717,15 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/item/Material.html#NAUTILUS_SHELL">NAUTILUS_SHELL</a></span> - net.minestom.server.item.<a href="net/minestom/server/item/Material.html" title="enum in net.minestom.server.item">Material</a></dt>
 <dd>&nbsp;</dd>
+<dt><a href="net/minestom/server/entity/pathfinding/NavigableEntity.html" title="interface in net.minestom.server.entity.pathfinding"><span class="typeNameLink">NavigableEntity</span></a> - Interface in <a href="net/minestom/server/entity/pathfinding/package-summary.html">net.minestom.server.entity.pathfinding</a></dt>
+<dd>
+<div class="block">Represents an entity which can use the pathfinder.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/arguments/ArgumentType.html#NBT(java.lang.String)">NBT(String)</a></span> - Static method in class net.minestom.server.command.builder.arguments.<a href="net/minestom/server/command/builder/arguments/ArgumentType.html" title="class in net.minestom.server.command.builder.arguments">ArgumentType</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/ServerPacketIdentifier.html#NBT_QUERY_RESPONSE">NBT_QUERY_RESPONSE</a></span> - Static variable in class net.minestom.server.network.packet.server.<a href="net/minestom/server/network/packet/server/ServerPacketIdentifier.html" title="class in net.minestom.server.network.packet.server">ServerPacketIdentifier</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/arguments/ArgumentType.html#NbtCompound(java.lang.String)">NbtCompound(String)</a></span> - Static method in class net.minestom.server.command.builder.arguments.<a href="net/minestom/server/command/builder/arguments/ArgumentType.html" title="class in net.minestom.server.command.builder.arguments">ArgumentType</a></dt>
-<dd>&nbsp;</dd>
-<dt><a href="net/minestom/server/item/NBTConsumer.html" title="interface in net.minestom.server.item"><span class="typeNameLink">NBTConsumer</span></a> - Interface in <a href="net/minestom/server/item/package-summary.html">net.minestom.server.item</a></dt>
-<dd>&nbsp;</dd>
-<dt><a href="net/minestom/server/data/NbtDataImpl.html" title="class in net.minestom.server.data"><span class="typeNameLink">NbtDataImpl</span></a> - Class in <a href="net/minestom/server/data/package-summary.html">net.minestom.server.data</a></dt>
-<dd>
-<div class="block">A data implementation backed by a <code>NBTCompound</code>.</div>
-</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/data/NbtDataImpl.html#%3Cinit%3E()">NbtDataImpl()</a></span> - Constructor for class net.minestom.server.data.<a href="net/minestom/server/data/NbtDataImpl.html" title="class in net.minestom.server.data">NbtDataImpl</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/utils/NBTUtils.html" title="class in net.minestom.server.utils"><span class="typeNameLink">NBTUtils</span></a> - Class in <a href="net/minestom/server/utils/package-summary.html">net.minestom.server.utils</a></dt>
 <dd>&nbsp;</dd>
@@ -18663,8 +18788,6 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><a href="net/minestom/server/entity/hologram/package-summary.html">net.minestom.server.entity.hologram</a> - package net.minestom.server.entity.hologram</dt>
 <dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/entity/pathfinding/package-summary.html">net.minestom.server.entity.pathfinding</a> - package net.minestom.server.entity.pathfinding</dt>
-<dd>&nbsp;</dd>
-<dt><a href="net/minestom/server/entity/task/package-summary.html">net.minestom.server.entity.task</a> - package net.minestom.server.entity.task</dt>
 <dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/entity/type/package-summary.html">net.minestom.server.entity.type</a> - package net.minestom.server.entity.type</dt>
 <dd>&nbsp;</dd>
@@ -18856,7 +18979,11 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/utils/math/package-summary.html">net.minestom.server.utils.math</a> - package net.minestom.server.utils.math</dt>
 <dd>&nbsp;</dd>
+<dt><a href="net/minestom/server/utils/ownership/package-summary.html">net.minestom.server.utils.ownership</a> - package net.minestom.server.utils.ownership</dt>
+<dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/utils/player/package-summary.html">net.minestom.server.utils.player</a> - package net.minestom.server.utils.player</dt>
+<dd>&nbsp;</dd>
+<dt><a href="net/minestom/server/utils/position/package-summary.html">net.minestom.server.utils.position</a> - package net.minestom.server.utils.position</dt>
 <dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/utils/thread/package-summary.html">net.minestom.server.utils.thread</a> - package net.minestom.server.utils.thread</dt>
 <dd>&nbsp;</dd>
@@ -19425,7 +19552,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/Command.html#onDynamicWrite(java.lang.String)">onDynamicWrite(String)</a></span> - Method in class net.minestom.server.command.builder.<a href="net/minestom/server/command/builder/Command.html" title="class in net.minestom.server.command.builder">Command</a></dt>
 <dd>
 <div class="block">Allows for tab auto completion, this is called everytime the player press a key in the chat
- when in a dynamic argument (<a href="net/minestom/server/command/builder/arguments/ArgumentDynamicWord.html" title="class in net.minestom.server.command.builder.arguments"><code>ArgumentDynamicWord</code></a> and <a href="net/minestom/server/command/builder/arguments/ArgumentDynamicStringArray.html" title="class in net.minestom.server.command.builder.arguments"><code>ArgumentDynamicStringArray</code></a>).</div>
+ when in a dynamic argument (<a href="net/minestom/server/command/builder/arguments/ArgumentDynamicWord.html" title="class in net.minestom.server.command.builder.arguments"><code>ArgumentDynamicWord</code></a> (when <a href="net/minestom/server/command/builder/arguments/minecraft/SuggestionType.html#ASK_SERVER"><code>SuggestionType.ASK_SERVER</code></a> is used)
+ and <a href="net/minestom/server/command/builder/arguments/ArgumentDynamicStringArray.html" title="class in net.minestom.server.command.builder.arguments"><code>ArgumentDynamicStringArray</code></a>).</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/instance/block/CustomBlock.html#onExplode(net.minestom.server.instance.Instance,net.minestom.server.utils.BlockPosition,net.minestom.server.data.Data)">onExplode(Instance, BlockPosition, Data)</a></span> - Method in class net.minestom.server.instance.block.<a href="net/minestom/server/instance/block/CustomBlock.html" title="class in net.minestom.server.instance.block">CustomBlock</a></dt>
 <dd>
@@ -19584,6 +19712,12 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/callback/OptionalCallback.html#%3Cinit%3E()">OptionalCallback()</a></span> - Constructor for class net.minestom.server.utils.callback.<a href="net/minestom/server/utils/callback/OptionalCallback.html" title="class in net.minestom.server.utils.callback">OptionalCallback</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/utils/chunk/ChunkUtils.html#optionalLoadAll(net.minestom.server.instance.Instance,long%5B%5D,net.minestom.server.utils.chunk.ChunkCallback,net.minestom.server.utils.chunk.ChunkCallback)">optionalLoadAll(Instance, long[], ChunkCallback, ChunkCallback)</a></span> - Static method in class net.minestom.server.utils.chunk.<a href="net/minestom/server/utils/chunk/ChunkUtils.html" title="class in net.minestom.server.utils.chunk">ChunkUtils</a></dt>
+<dd>
+<div class="block">Executes <a href="net/minestom/server/instance/Instance.html#loadOptionalChunk(int,int,net.minestom.server.utils.chunk.ChunkCallback)"><code>Instance.loadOptionalChunk(int, int, ChunkCallback)</code></a> for the array of chunks <code>chunks</code>
+ with multiple callbacks, <code>eachCallback</code> which is executed each time a new chunk is loaded and
+ <code>endCallback</code> when all the chunks in the array have been loaded.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/instance/block/Block.html#ORANGE_BANNER">ORANGE_BANNER</a></span> - net.minestom.server.instance.block.<a href="net/minestom/server/instance/block/Block.html" title="enum in net.minestom.server.instance.block">Block</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/item/Material.html#ORANGE_BANNER">ORANGE_BANNER</a></span> - net.minestom.server.item.<a href="net/minestom/server/item/Material.html" title="enum in net.minestom.server.item">Material</a></dt>
@@ -19687,6 +19821,14 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/item/metadata/WrittenBookMeta.WrittenBookGeneration.html#ORIGINAL">ORIGINAL</a></span> - net.minestom.server.item.metadata.<a href="net/minestom/server/item/metadata/WrittenBookMeta.WrittenBookGeneration.html" title="enum in net.minestom.server.item.metadata">WrittenBookMeta.WrittenBookGeneration</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/world/DimensionType.html#OVERWORLD">OVERWORLD</a></span> - Static variable in class net.minestom.server.world.<a href="net/minestom/server/world/DimensionType.html" title="class in net.minestom.server.world">DimensionType</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/item/ItemStack.html#OWNERSHIP_DATA_KEY">OWNERSHIP_DATA_KEY</a></span> - Static variable in class net.minestom.server.item.<a href="net/minestom/server/item/ItemStack.html" title="class in net.minestom.server.item">ItemStack</a></dt>
+<dd>&nbsp;</dd>
+<dt><a href="net/minestom/server/utils/ownership/OwnershipHandler.html" title="class in net.minestom.server.utils.ownership"><span class="typeNameLink">OwnershipHandler</span></a>&lt;<a href="net/minestom/server/utils/ownership/OwnershipHandler.html" title="type parameter in OwnershipHandler">T</a>&gt; - Class in <a href="net/minestom/server/utils/ownership/package-summary.html">net.minestom.server.utils.ownership</a></dt>
+<dd>
+<div class="block">Convenient class to keep trace of objects linked to an <code>UUID</code>.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/utils/ownership/OwnershipHandler.html#%3Cinit%3E()">OwnershipHandler()</a></span> - Constructor for class net.minestom.server.utils.ownership.<a href="net/minestom/server/utils/ownership/OwnershipHandler.html" title="class in net.minestom.server.utils.ownership">OwnershipHandler</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/instance/block/Block.html#OXEYE_DAISY">OXEYE_DAISY</a></span> - net.minestom.server.instance.block.<a href="net/minestom/server/instance/block/Block.html" title="enum in net.minestom.server.instance.block">Block</a></dt>
 <dd>&nbsp;</dd>
@@ -19865,6 +20007,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/SetPassengersPacket.html#passengersId">passengersId</a></span> - Variable in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/SetPassengersPacket.html" title="class in net.minestom.server.network.packet.server.play">SetPassengersPacket</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/EntityCreature.html#pathFindingTick(float)">pathFindingTick(float)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/EntityCreature.html" title="class in net.minestom.server.entity">EntityCreature</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/NavigableEntity.html#pathFindingTick(float)">pathFindingTick(float)</a></span> - Method in interface net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/NavigableEntity.html" title="interface in net.minestom.server.entity.pathfinding">NavigableEntity</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/world/Difficulty.html#PEACEFUL">PEACEFUL</a></span> - net.minestom.server.world.<a href="net/minestom/server/world/Difficulty.html" title="enum in net.minestom.server.world">Difficulty</a></dt>
 <dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/instance/block/states/Peony.html" title="class in net.minestom.server.instance.block.states"><span class="typeNameLink">Peony</span></a> - Class in <a href="net/minestom/server/instance/block/states/package-summary.html">net.minestom.server.instance.block.states</a></dt>
@@ -19933,7 +20079,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html" title="class in net.minestom.server.entity.pathfinding"><span class="typeNameLink">PFPathingEntity</span></a> - Class in <a href="net/minestom/server/entity/pathfinding/package-summary.html">net.minestom.server.entity.pathfinding</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html#%3Cinit%3E(net.minestom.server.entity.EntityCreature)">PFPathingEntity(EntityCreature)</a></span> - Constructor for class net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html" title="class in net.minestom.server.entity.pathfinding">PFPathingEntity</a></dt>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html#%3Cinit%3E(net.minestom.server.entity.pathfinding.NavigableEntity)">PFPathingEntity(NavigableEntity)</a></span> - Constructor for class net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html" title="class in net.minestom.server.entity.pathfinding">PFPathingEntity</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/EntityType.html#PHANTOM">PHANTOM</a></span> - net.minestom.server.entity.<a href="net/minestom/server/entity/EntityType.html" title="enum in net.minestom.server.entity">EntityType</a></dt>
 <dd>&nbsp;</dd>
@@ -20544,6 +20690,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="block">Plays a sound from an identifier (represents a custom sound in a resource pack).</div>
 </dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/Player.html#playSound(net.minestom.server.sound.Sound,net.minestom.server.sound.SoundCategory,float,float)">playSound(Sound, SoundCategory, float, float)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Player.html" title="class in net.minestom.server.entity">Player</a></dt>
+<dd>
+<div class="block">Plays a sound directly to the player (constant volume).</div>
+</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/Player.html#playSound(net.minestom.server.sound.Sound,net.minestom.server.sound.SoundCategory,int,int,int,float,float)">playSound(Sound, SoundCategory, int, int, int, float, float)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Player.html" title="class in net.minestom.server.entity">Player</a></dt>
 <dd>
 <div class="block">Plays a sound from the <a href="net/minestom/server/sound/Sound.html" title="enum in net.minestom.server.sound"><code>Sound</code></a> enum.</div>
@@ -20845,6 +20995,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/Position.html#%3Cinit%3E(float,float,float,float,float)">Position(float, float, float, float, float)</a></span> - Constructor for class net.minestom.server.utils.<a href="net/minestom/server/utils/Position.html" title="class in net.minestom.server.utils">Position</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/SerializerUtils.html#positionToLong(int,int,int)">positionToLong(int, int, int)</a></span> - Static method in class net.minestom.server.utils.<a href="net/minestom/server/utils/SerializerUtils.html" title="class in net.minestom.server.utils">SerializerUtils</a></dt>
+<dd>&nbsp;</dd>
+<dt><a href="net/minestom/server/utils/position/PositionUtils.html" title="class in net.minestom.server.utils.position"><span class="typeNameLink">PositionUtils</span></a> - Class in <a href="net/minestom/server/utils/position/package-summary.html">net.minestom.server.utils.position</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/utils/position/PositionUtils.html#%3Cinit%3E()">PositionUtils()</a></span> - Constructor for class net.minestom.server.utils.position.<a href="net/minestom/server/utils/position/PositionUtils.html" title="class in net.minestom.server.utils.position">PositionUtils</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/MultiBlockChangePacket.BlockChange.html#positionX">positionX</a></span> - Variable in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/MultiBlockChangePacket.BlockChange.html" title="class in net.minestom.server.network.packet.server.play">MultiBlockChangePacket.BlockChange</a></dt>
 <dd>&nbsp;</dd>
@@ -22448,6 +22602,12 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/AdvancementsPacket.Requirement.html#requirements">requirements</a></span> - Variable in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/AdvancementsPacket.Requirement.html" title="class in net.minestom.server.network.packet.server.play">AdvancementsPacket.Requirement</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/instance/Chunk.html#reset()">reset()</a></span> - Method in class net.minestom.server.instance.<a href="net/minestom/server/instance/Chunk.html" title="class in net.minestom.server.instance">Chunk</a></dt>
+<dd>
+<div class="block">Resets the chunk, this means clearing all the data making it empty.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/instance/DynamicChunk.html#reset()">reset()</a></span> - Method in class net.minestom.server.instance.<a href="net/minestom/server/instance/DynamicChunk.html" title="class in net.minestom.server.instance">DynamicChunk</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/item/metadata/LeatherArmorMeta.html#reset()">reset()</a></span> - Method in class net.minestom.server.item.metadata.<a href="net/minestom/server/item/metadata/LeatherArmorMeta.html" title="class in net.minestom.server.item.metadata">LeatherArmorMeta</a></dt>
 <dd>
 <div class="block">Resets the color to the default leather one.</div>
@@ -22637,6 +22797,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="block">Runs a command when clicked.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/timer/Task.html#runRunnable()">runRunnable()</a></span> - Method in class net.minestom.server.timer.<a href="net/minestom/server/timer/Task.html" title="class in net.minestom.server.timer">Task</a></dt>
+<dd>
+<div class="block">Executes the internal runnable.</div>
+</dd>
 </dl>
 <a id="I:S">
 <!--   -->
@@ -22653,14 +22817,6 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/item/Material.html#SALMON_SPAWN_EGG">SALMON_SPAWN_EGG</a></span> - net.minestom.server.item.<a href="net/minestom/server/item/Material.html" title="enum in net.minestom.server.item">Material</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/entity/Entity.html#sameChunk(net.minestom.server.entity.Entity)">sameChunk(Entity)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Entity.html" title="class in net.minestom.server.entity">Entity</a></dt>
-<dd>
-<div class="block">Gets if the entity is in the same chunk as another.</div>
-</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/entity/Entity.html#sameChunk(net.minestom.server.utils.Position)">sameChunk(Position)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Entity.html" title="class in net.minestom.server.entity">Entity</a></dt>
-<dd>
-<div class="block">Gets if this entity is in the same chunk as the specified position.</div>
-</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/ArrayUtils.html#sameStart(T%5B%5D,T%5B%5D,int)">sameStart(T[], T[], int)</a></span> - Static method in class net.minestom.server.utils.<a href="net/minestom/server/utils/ArrayUtils.html" title="class in net.minestom.server.utils">ArrayUtils</a></dt>
 <dd>
 <div class="block">Gets if two arrays share the same start until <code>length</code>.</div>
@@ -22767,11 +22923,15 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/instance/InstanceContainer.html#saveInstance()">saveInstance()</a></span> - Method in class net.minestom.server.instance.<a href="net/minestom/server/instance/InstanceContainer.html" title="class in net.minestom.server.instance">InstanceContainer</a></dt>
 <dd>
-<div class="block">Save the instance without callback.</div>
+<div class="block">Saves the instance without callback.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/instance/InstanceContainer.html#saveInstance(java.lang.Runnable)">saveInstance(Runnable)</a></span> - Method in class net.minestom.server.instance.<a href="net/minestom/server/instance/InstanceContainer.html" title="class in net.minestom.server.instance">InstanceContainer</a></dt>
 <dd>
 <div class="block">Saves the instance (<a href="net/minestom/server/instance/Instance.html#getUniqueId()"><code>Instance.getUniqueId()</code></a> <a href="net/minestom/server/instance/Instance.html#getData()"><code>Instance.getData()</code></a>) and call <a href="net/minestom/server/instance/InstanceContainer.html#saveChunksToStorage(java.lang.Runnable)"><code>InstanceContainer.saveChunksToStorage(Runnable)</code></a>.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/utils/ownership/OwnershipHandler.html#saveOwnObject(java.util.UUID,T)">saveOwnObject(UUID, T)</a></span> - Method in class net.minestom.server.utils.ownership.<a href="net/minestom/server/utils/ownership/OwnershipHandler.html" title="class in net.minestom.server.utils.ownership">OwnershipHandler</a></dt>
+<dd>
+<div class="block">Saves, replace or remove the own object of an identifier.</div>
 </dd>
 <dt><a href="net/minestom/server/instance/block/states/Scaffolding.html" title="class in net.minestom.server.instance.block.states"><span class="typeNameLink">Scaffolding</span></a> - Class in <a href="net/minestom/server/instance/block/states/package-summary.html">net.minestom.server.instance.block.states</a></dt>
 <dd>
@@ -22919,6 +23079,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="block">Sends a <a href="net/minestom/server/network/packet/server/play/BlockActionPacket.html" title="class in net.minestom.server.network.packet.server.play"><code>BlockActionPacket</code></a> for all the viewers of the specific position.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/instance/Chunk.html#sendChunk()">sendChunk()</a></span> - Method in class net.minestom.server.instance.<a href="net/minestom/server/instance/Chunk.html" title="class in net.minestom.server.instance">Chunk</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/instance/Chunk.html#sendChunk(net.minestom.server.entity.Player)">sendChunk(Player)</a></span> - Method in class net.minestom.server.instance.<a href="net/minestom/server/instance/Chunk.html" title="class in net.minestom.server.instance">Chunk</a></dt>
 <dd>
 <div class="block">Sends the chunk data to <code>player</code>.</div>
@@ -22995,6 +23157,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/Viewable.html#sendPacketsToViewers(net.minestom.server.network.packet.server.ServerPacket...)">sendPacketsToViewers(ServerPacket...)</a></span> - Method in interface net.minestom.server.<a href="net/minestom/server/Viewable.html" title="interface in net.minestom.server">Viewable</a></dt>
 <dd>
 <div class="block">Sends multiple packets to all viewers.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/Viewable.html#sendPacketToSelf(net.minestom.server.network.packet.server.ServerPacket)">sendPacketToSelf(ServerPacket)</a></span> - Method in interface net.minestom.server.<a href="net/minestom/server/Viewable.html" title="interface in net.minestom.server">Viewable</a></dt>
+<dd>
+<div class="block">Sends a packet to the viewable element if it is a player.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/Viewable.html#sendPacketToViewers(net.minestom.server.network.packet.server.ServerPacket)">sendPacketToViewers(ServerPacket)</a></span> - Method in interface net.minestom.server.<a href="net/minestom/server/Viewable.html" title="interface in net.minestom.server">Viewable</a></dt>
 <dd>
@@ -23126,8 +23292,6 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/data/DataImpl.html#set(java.lang.String,T,java.lang.Class)">set(String, T, Class&lt;T&gt;)</a></span> - Method in class net.minestom.server.data.<a href="net/minestom/server/data/DataImpl.html" title="class in net.minestom.server.data">DataImpl</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/data/SerializableData.html#set(java.lang.String,T,java.lang.Class)">set(String, T, Class&lt;T&gt;)</a></span> - Method in interface net.minestom.server.data.<a href="net/minestom/server/data/SerializableData.html" title="interface in net.minestom.server.data">SerializableData</a></dt>
-<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/data/SerializableDataImpl.html#set(java.lang.String,T,java.lang.Class)">set(String, T, Class&lt;T&gt;)</a></span> - Method in class net.minestom.server.data.<a href="net/minestom/server/data/SerializableDataImpl.html" title="class in net.minestom.server.data">SerializableDataImpl</a></dt>
 <dd>
 <div class="block">Sets a value to a specific key.</div>
@@ -23180,6 +23344,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html#setAquaphobic(boolean)">setAquaphobic(boolean)</a></span> - Method in class net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html" title="class in net.minestom.server.entity.pathfinding">PFPathingEntity</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html#setAquatic(boolean)">setAquatic(boolean)</a></span> - Method in class net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html" title="class in net.minestom.server.entity.pathfinding">PFPathingEntity</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/Arguments.html#setArg(java.lang.String,java.lang.Object)">setArg(String, Object)</a></span> - Method in class net.minestom.server.command.builder.<a href="net/minestom/server/command/builder/Arguments.html" title="class in net.minestom.server.command.builder">Arguments</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/Command.html#setArgumentCallback(net.minestom.server.command.builder.ArgumentCallback,net.minestom.server.command.builder.arguments.Argument)">setArgumentCallback(ArgumentCallback, Argument&lt;?&gt;)</a></span> - Method in class net.minestom.server.command.builder.<a href="net/minestom/server/command/builder/Command.html" title="class in net.minestom.server.command.builder">Command</a></dt>
@@ -23202,6 +23368,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="block">Makes the entity auto viewable or only manually.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html#setAvian(boolean)">setAvian(boolean)</a></span> - Method in class net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html" title="class in net.minestom.server.entity.pathfinding">PFPathingEntity</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html#setAvoidsDoorways(boolean)">setAvoidsDoorways(boolean)</a></span> - Method in class net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html" title="class in net.minestom.server.entity.pathfinding">PFPathingEntity</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/type/monster/EntityZombie.html#setBaby(boolean)">setBaby(boolean)</a></span> - Method in class net.minestom.server.entity.type.monster.<a href="net/minestom/server/entity/type/monster/EntityZombie.html" title="class in net.minestom.server.entity.type.monster">EntityZombie</a></dt>
@@ -23637,6 +23805,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="block">Sets the encryption key and add the codecs to the pipeline.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/ai/GoalSelector.html#setEntityCreature(net.minestom.server.entity.EntityCreature)">setEntityCreature(EntityCreature)</a></span> - Method in class net.minestom.server.entity.ai.<a href="net/minestom/server/entity/ai/GoalSelector.html" title="class in net.minestom.server.entity.ai">GoalSelector</a></dt>
+<dd>
+<div class="block">Changes the entity affected by the goal selector.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/MinecraftServer.html#setEntityViewDistance(int)">setEntityViewDistance(int)</a></span> - Static method in class net.minestom.server.<a href="net/minestom/server/MinecraftServer.html" title="class in net.minestom.server">MinecraftServer</a></dt>
 <dd>
 <div class="block">Changes the entity view distance of the server.</div>
@@ -23731,6 +23903,8 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="block">Changes the fuel time.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/instance/batch/BatchOption.html#setFullChunk(boolean)">setFullChunk(boolean)</a></span> - Method in class net.minestom.server.instance.batch.<a href="net/minestom/server/instance/batch/BatchOption.html" title="class in net.minestom.server.instance.batch">BatchOption</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/Player.html#setGameMode(net.minestom.server.entity.GameMode)">setGameMode(GameMode)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Player.html" title="class in net.minestom.server.entity">Player</a></dt>
 <dd>
 <div class="block">Changes the player <a href="net/minestom/server/entity/GameMode.html" title="enum in net.minestom.server.entity"><code>GameMode</code></a>.</div>
@@ -23840,6 +24014,11 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/EntityCreature.html#setInstance(net.minestom.server.instance.Instance)">setInstance(Instance)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/EntityCreature.html" title="class in net.minestom.server.entity">EntityCreature</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/Player.html#setInstance(net.minestom.server.instance.Instance)">setInstance(Instance)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Player.html" title="class in net.minestom.server.entity">Player</a></dt>
+<dd>
+<div class="block">Changes the player instance without changing its position (defaulted to <a href="net/minestom/server/entity/Player.html#getRespawnPoint()"><code>Player.getRespawnPoint()</code></a>
+ if the player is not in any instance.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/Player.html#setInstance(net.minestom.server.instance.Instance,net.minestom.server.utils.Position)">setInstance(Instance, Position)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Player.html" title="class in net.minestom.server.entity">Player</a></dt>
 <dd>
 <div class="block">Changes the player instance and load surrounding chunks if needed.</div>
 </dd>
@@ -24043,9 +24222,9 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="block">Changes the <a href="net/minestom/server/network/packet/server/play/TeamsPacket.NameTagVisibility.html" title="enum in net.minestom.server.network.packet.server.play"><code>TeamsPacket.NameTagVisibility</code></a> of the team.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/item/ItemStack.html#setNBTConsumer(net.minestom.server.item.NBTConsumer)">setNBTConsumer(NBTConsumer)</a></span> - Method in class net.minestom.server.item.<a href="net/minestom/server/item/ItemStack.html" title="class in net.minestom.server.item">ItemStack</a></dt>
+<dt><span class="memberNameLink"><a href="net/minestom/server/MinecraftServer.html#setNettyThreadCount(int)">setNettyThreadCount(int)</a></span> - Static method in class net.minestom.server.<a href="net/minestom/server/MinecraftServer.html" title="class in net.minestom.server">MinecraftServer</a></dt>
 <dd>
-<div class="block">Changes the item <a href="net/minestom/server/item/NBTConsumer.html" title="interface in net.minestom.server.item"><code>NBTConsumer</code></a>.</div>
+<div class="block">Changes the number of threads used by Netty.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/event/inventory/InventoryCloseEvent.html#setNewInventory(net.minestom.server.inventory.Inventory)">setNewInventory(Inventory)</a></span> - Method in class net.minestom.server.event.inventory.<a href="net/minestom/server/event/inventory/InventoryCloseEvent.html" title="class in net.minestom.server.event.inventory">InventoryCloseEvent</a></dt>
 <dd>
@@ -24079,6 +24258,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html#setOpensDoors(boolean)">setOpensDoors(boolean)</a></span> - Method in class net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/PFPathingEntity.html" title="class in net.minestom.server.entity.pathfinding">PFPathingEntity</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/MinecraftServer.html#setPacketCaching(boolean)">setPacketCaching(boolean)</a></span> - Static method in class net.minestom.server.<a href="net/minestom/server/MinecraftServer.html" title="class in net.minestom.server">MinecraftServer</a></dt>
+<dd>
+<div class="block">Enables or disable packet caching.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/item/metadata/WritableBookMeta.html#setPages(java.util.ArrayList)">setPages(ArrayList&lt;String&gt;)</a></span> - Method in class net.minestom.server.item.metadata.<a href="net/minestom/server/item/metadata/WritableBookMeta.html" title="class in net.minestom.server.item.metadata">WritableBookMeta</a></dt>
 <dd>
 <div class="block">Sets the pages list of this book.</div>
@@ -24099,7 +24282,25 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/SetPassengersPacket.html#%3Cinit%3E()">SetPassengersPacket()</a></span> - Constructor for class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/SetPassengersPacket.html" title="class in net.minestom.server.network.packet.server.play">SetPassengersPacket</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/EntityCreature.html#setPath(com.extollit.gaming.ai.path.model.IPath)">setPath(IPath)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/EntityCreature.html" title="class in net.minestom.server.entity">EntityCreature</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/NavigableEntity.html#setPath(com.extollit.gaming.ai.path.model.IPath)">setPath(IPath)</a></span> - Method in interface net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/NavigableEntity.html" title="interface in net.minestom.server.entity.pathfinding">NavigableEntity</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/NavigableEntity.html#setPathfindingPriority(com.extollit.gaming.ai.path.SchedulingPriority)">setPathfindingPriority(SchedulingPriority)</a></span> - Method in interface net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/NavigableEntity.html" title="interface in net.minestom.server.entity.pathfinding">NavigableEntity</a></dt>
+<dd>
+<div class="block">Changes the pathfinding priority for this entity.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/EntityCreature.html#setPathPosition(net.minestom.server.utils.Position)">setPathPosition(Position)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/EntityCreature.html" title="class in net.minestom.server.entity">EntityCreature</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/NavigableEntity.html#setPathPosition(net.minestom.server.utils.Position)">setPathPosition(Position)</a></span> - Method in interface net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/NavigableEntity.html" title="interface in net.minestom.server.entity.pathfinding">NavigableEntity</a></dt>
+<dd>
+<div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span>
+<div class="deprecationComment">Please use <a href="net/minestom/server/entity/pathfinding/NavigableEntity.html#setPathTo(net.minestom.server.utils.Position)"><code>NavigableEntity.setPathTo(Position)</code></a></div>
+</div>
+</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/EntityCreature.html#setPathTo(net.minestom.server.utils.Position)">setPathTo(Position)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/EntityCreature.html" title="class in net.minestom.server.entity">EntityCreature</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/pathfinding/NavigableEntity.html#setPathTo(net.minestom.server.utils.Position)">setPathTo(Position)</a></span> - Method in interface net.minestom.server.entity.pathfinding.<a href="net/minestom/server/entity/pathfinding/NavigableEntity.html" title="interface in net.minestom.server.entity.pathfinding">NavigableEntity</a></dt>
 <dd>
 <div class="block">Retrieves the path to <code>position</code> and ask the entity to follow the path.</div>
 </dd>
@@ -24304,6 +24505,15 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/instance/BlockModifier.html#setSeparateBlocks(net.minestom.server.utils.BlockPosition,short,short)">setSeparateBlocks(BlockPosition, short, short)</a></span> - Method in interface net.minestom.server.instance.<a href="net/minestom/server/instance/BlockModifier.html" title="interface in net.minestom.server.instance">BlockModifier</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/MinecraftServer.html#setShouldProcessNettyErrors(boolean)">setShouldProcessNettyErrors(boolean)</a></span> - Static method in class net.minestom.server.<a href="net/minestom/server/MinecraftServer.html" title="class in net.minestom.server">MinecraftServer</a></dt>
+<dd>
+<div class="block">Sets if the server should process netty errors and other unnecessary netty events
+ false is faster</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/ConnectionManager.html#setShutdownText(net.minestom.server.chat.ColoredText)">setShutdownText(ColoredText)</a></span> - Method in class net.minestom.server.network.<a href="net/minestom/server/network/ConnectionManager.html" title="class in net.minestom.server.network">ConnectionManager</a></dt>
+<dd>
+<div class="block">Changes the kick reason in case of a shutdown.</div>
+</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/Entity.html#setSilent(boolean)">setSilent(boolean)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Entity.html" title="class in net.minestom.server.entity">Entity</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/type/monster/EntityPhantom.html#setSize(int)">setSize(int)</a></span> - Method in class net.minestom.server.entity.type.monster.<a href="net/minestom/server/entity/type/monster/EntityPhantom.html" title="class in net.minestom.server.entity.type.monster">EntityPhantom</a></dt>
@@ -24626,6 +24836,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/vehicle/PlayerVehicleInformation.html#shouldJump()">shouldJump()</a></span> - Method in class net.minestom.server.entity.vehicle.<a href="net/minestom/server/entity/vehicle/PlayerVehicleInformation.html" title="class in net.minestom.server.entity.vehicle">PlayerVehicleInformation</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/MinecraftServer.html#shouldProcessNettyErrors()">shouldProcessNettyErrors()</a></span> - Static method in class net.minestom.server.<a href="net/minestom/server/MinecraftServer.html" title="class in net.minestom.server">MinecraftServer</a></dt>
+<dd>
+<div class="block">Gets if the server should process netty errors and other unnecessary netty events</div>
+</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/Entity.html#shouldRemove()">shouldRemove()</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Entity.html" title="class in net.minestom.server.entity">Entity</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/player/PlayerConnection.html#shouldSendPacket(net.minestom.server.network.packet.server.ServerPacket)">shouldSendPacket(ServerPacket)</a></span> - Method in class net.minestom.server.network.player.<a href="net/minestom/server/network/player/PlayerConnection.html" title="class in net.minestom.server.network.player">PlayerConnection</a></dt>
@@ -24651,10 +24865,6 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/ai/GoalSelector.html#shouldStart()">shouldStart()</a></span> - Method in class net.minestom.server.entity.ai.<a href="net/minestom/server/entity/ai/GoalSelector.html" title="class in net.minestom.server.entity.ai">GoalSelector</a></dt>
 <dd>
 <div class="block">Whether or not this <a href="net/minestom/server/entity/ai/GoalSelector.html" title="class in net.minestom.server.entity.ai"><code>GoalSelector</code></a> should start.</div>
-</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/entity/task/EntityTask.html#shouldStart(net.minestom.server.entity.LivingEntity)">shouldStart(LivingEntity)</a></span> - Method in class net.minestom.server.entity.task.<a href="net/minestom/server/entity/task/EntityTask.html" title="class in net.minestom.server.entity.task">EntityTask</a></dt>
-<dd>
-<div class="block">Whether the task should begin executing for this entity.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/vehicle/PlayerVehicleInformation.html#shouldUnmount()">shouldUnmount()</a></span> - Method in class net.minestom.server.entity.vehicle.<a href="net/minestom/server/entity/vehicle/PlayerVehicleInformation.html" title="class in net.minestom.server.entity.vehicle">PlayerVehicleInformation</a></dt>
 <dd>&nbsp;</dd>
@@ -24715,6 +24925,14 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span></div>
 &nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/extensions/ExtensionManager.html#shutdown()">shutdown()</a></span> - Method in class net.minestom.server.extensions.<a href="net/minestom/server/extensions/ExtensionManager.html" title="class in net.minestom.server.extensions">ExtensionManager</a></dt>
+<dd>
+<div class="block">Shutdowns all the extensions by unloading them.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/ConnectionManager.html#shutdown()">shutdown()</a></span> - Method in class net.minestom.server.network.<a href="net/minestom/server/network/ConnectionManager.html" title="class in net.minestom.server.network">ConnectionManager</a></dt>
+<dd>
+<div class="block">Shutdowns the connection manager by kicking all the currently connected players</div>
+</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/timer/SchedulerManager.html#shutdown()">shutdown()</a></span> - Method in class net.minestom.server.timer.<a href="net/minestom/server/timer/SchedulerManager.html" title="class in net.minestom.server.timer">SchedulerManager</a></dt>
 <dd>
 <div class="block">Shutdowns all normal tasks and call the registered shutdown tasks.</div>
@@ -25469,10 +25687,6 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="block">Starts the server.</div>
 </dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/entity/task/EntityTask.html#start(net.minestom.server.entity.LivingEntity)">start(LivingEntity)</a></span> - Method in class net.minestom.server.entity.task.<a href="net/minestom/server/entity/task/EntityTask.html" title="class in net.minestom.server.entity.task">EntityTask</a></dt>
-<dd>
-<div class="block">Invoked when this task is about to start for this entity.</div>
-</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/inventory/click/ClickType.html#START_DOUBLE_CLICK">START_DOUBLE_CLICK</a></span> - net.minestom.server.inventory.click.<a href="net/minestom/server/inventory/click/ClickType.html" title="enum in net.minestom.server.inventory.click">ClickType</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/inventory/click/ClickType.html#START_DRAGGING">START_DRAGGING</a></span> - net.minestom.server.inventory.click.<a href="net/minestom/server/inventory/click/ClickType.html" title="enum in net.minestom.server.inventory.click">ClickType</a></dt>
@@ -26076,6 +26290,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/DeclareCommandsPacket.Node.html#suggestionsType">suggestionsType</a></span> - Variable in class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/DeclareCommandsPacket.Node.html" title="class in net.minestom.server.network.packet.server.play">DeclareCommandsPacket.Node</a></dt>
 <dd>&nbsp;</dd>
+<dt><a href="net/minestom/server/command/builder/arguments/minecraft/SuggestionType.html" title="enum in net.minestom.server.command.builder.arguments.minecraft"><span class="typeNameLink">SuggestionType</span></a> - Enum in <a href="net/minestom/server/command/builder/arguments/minecraft/package-summary.html">net.minestom.server.command.builder.arguments.minecraft</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/arguments/minecraft/SuggestionType.html#SUMMONABLE_ENTITIES">SUMMONABLE_ENTITIES</a></span> - net.minestom.server.command.builder.arguments.minecraft.<a href="net/minestom/server/command/builder/arguments/minecraft/SuggestionType.html" title="enum in net.minestom.server.command.builder.arguments.minecraft">SuggestionType</a></dt>
+<dd>&nbsp;</dd>
 <dt><a href="net/minestom/server/instance/block/states/Sunflower.html" title="class in net.minestom.server.instance.block.states"><span class="typeNameLink">Sunflower</span></a> - Class in <a href="net/minestom/server/instance/block/states/package-summary.html">net.minestom.server.instance.block.states</a></dt>
 <dd>
 <div class="deprecationBlock"><span class="deprecatedLabel">Deprecated.</span></div>
@@ -26155,6 +26373,11 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>
 <div class="block">Sends a <a href="net/minestom/server/network/packet/server/play/EntityAnimationPacket.html" title="class in net.minestom.server.network.packet.server.play"><code>EntityAnimationPacket</code></a> to swing the off hand
  (can be used for attack animation).</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/instance/Instance.html#switchEntityChunk(net.minestom.server.entity.Entity,net.minestom.server.instance.Chunk,net.minestom.server.instance.Chunk)">switchEntityChunk(Entity, Chunk, Chunk)</a></span> - Method in class net.minestom.server.instance.<a href="net/minestom/server/instance/Instance.html" title="class in net.minestom.server.instance">Instance</a></dt>
+<dd>
+<div class="block">Synchronized method to execute <a href="net/minestom/server/instance/Instance.html#removeEntityFromChunk(net.minestom.server.entity.Entity,net.minestom.server.instance.Chunk)"><code>Instance.removeEntityFromChunk(Entity, Chunk)</code></a>
+ and <a href="net/minestom/server/instance/Instance.html#addEntityToChunk(net.minestom.server.entity.Entity,net.minestom.server.instance.Chunk)"><code>Instance.addEntityToChunk(Entity, Chunk)</code></a> simultaneously.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/inventory/EquipmentHandler.html#syncEquipment(net.minestom.server.network.packet.server.play.EntityEquipmentPacket.Slot)">syncEquipment(EntityEquipmentPacket.Slot)</a></span> - Method in interface net.minestom.server.inventory.<a href="net/minestom/server/inventory/EquipmentHandler.html" title="interface in net.minestom.server.inventory">EquipmentHandler</a></dt>
 <dd>
@@ -26415,11 +26638,15 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/Player.html#teleport(net.minestom.server.utils.Position)">teleport(Position)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Player.html" title="class in net.minestom.server.entity">Player</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/entity/Entity.html#teleport(net.minestom.server.utils.Position,java.lang.Runnable)">teleport(Position, Runnable)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Entity.html" title="class in net.minestom.server.entity">Entity</a></dt>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/Entity.html#teleport(net.minestom.server.utils.Position,long%5B%5D,java.lang.Runnable)">teleport(Position, long[], Runnable)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Entity.html" title="class in net.minestom.server.entity">Entity</a></dt>
 <dd>
 <div class="block">Teleports the entity only if the chunk at <code>position</code> is loaded or if
  <a href="net/minestom/server/instance/Instance.html#hasEnabledAutoChunkLoad()"><code>Instance.hasEnabledAutoChunkLoad()</code></a> returns true.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/Player.html#teleport(net.minestom.server.utils.Position,long%5B%5D,java.lang.Runnable)">teleport(Position, long[], Runnable)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Player.html" title="class in net.minestom.server.entity">Player</a></dt>
+<dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/Entity.html#teleport(net.minestom.server.utils.Position,java.lang.Runnable)">teleport(Position, Runnable)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Entity.html" title="class in net.minestom.server.entity">Entity</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/Player.html#teleport(net.minestom.server.utils.Position,java.lang.Runnable)">teleport(Position, Runnable)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Player.html" title="class in net.minestom.server.entity">Player</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/client/play/ClientTeleportConfirmPacket.html#teleportId">teleportId</a></span> - Variable in class net.minestom.server.network.packet.client.play.<a href="net/minestom/server/network/packet/client/play/ClientTeleportConfirmPacket.html" title="class in net.minestom.server.network.packet.client.play">ClientTeleportConfirmPacket</a></dt>
@@ -26512,8 +26739,6 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/MinecraftServer.html#THREAD_NAME_BLOCK_BATCH">THREAD_NAME_BLOCK_BATCH</a></span> - Static variable in class net.minestom.server.<a href="net/minestom/server/MinecraftServer.html" title="class in net.minestom.server">MinecraftServer</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/MinecraftServer.html#THREAD_NAME_MAIN_UPDATE">THREAD_NAME_MAIN_UPDATE</a></span> - Static variable in class net.minestom.server.<a href="net/minestom/server/MinecraftServer.html" title="class in net.minestom.server">MinecraftServer</a></dt>
-<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/MinecraftServer.html#THREAD_NAME_PARALLEL_CHUNK_SAVING">THREAD_NAME_PARALLEL_CHUNK_SAVING</a></span> - Static variable in class net.minestom.server.<a href="net/minestom/server/MinecraftServer.html" title="class in net.minestom.server">MinecraftServer</a></dt>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/MinecraftServer.html#THREAD_NAME_SCHEDULER">THREAD_NAME_SCHEDULER</a></span> - Static variable in class net.minestom.server.<a href="net/minestom/server/MinecraftServer.html" title="class in net.minestom.server">MinecraftServer</a></dt>
@@ -26546,7 +26771,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/ai/GoalSelector.html#tick(long)">tick(long)</a></span> - Method in class net.minestom.server.entity.ai.<a href="net/minestom/server/entity/ai/GoalSelector.html" title="class in net.minestom.server.entity.ai">GoalSelector</a></dt>
 <dd>
-<div class="block">Called every tick when this <a href="net/minestom/server/entity/ai/GoalSelector.html" title="class in net.minestom.server.entity.ai"><code>GoalSelector</code></a> is running</div>
+<div class="block">Called every tick when this <a href="net/minestom/server/entity/ai/GoalSelector.html" title="class in net.minestom.server.entity.ai"><code>GoalSelector</code></a> is running.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/entity/Entity.html#tick(long)">tick(long)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Entity.html" title="class in net.minestom.server.entity">Entity</a></dt>
 <dd>
@@ -27357,7 +27582,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/network/packet/server/play/UpdateViewDistancePacket.html#%3Cinit%3E()">UpdateViewDistancePacket()</a></span> - Constructor for class net.minestom.server.network.packet.server.play.<a href="net/minestom/server/network/packet/server/play/UpdateViewDistancePacket.html" title="class in net.minestom.server.network.packet.server.play">UpdateViewDistancePacket</a></dt>
 <dd>&nbsp;</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/entity/Player.html#updateViewPosition(net.minestom.server.instance.Chunk)">updateViewPosition(Chunk)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Player.html" title="class in net.minestom.server.entity">Player</a></dt>
+<dt><span class="memberNameLink"><a href="net/minestom/server/entity/Player.html#updateViewPosition(int,int)">updateViewPosition(int, int)</a></span> - Method in class net.minestom.server.entity.<a href="net/minestom/server/entity/Player.html" title="class in net.minestom.server.entity">Player</a></dt>
 <dd>
 <div class="block">Sends a <a href="net/minestom/server/network/packet/server/play/UpdateViewPositionPacket.html" title="class in net.minestom.server.network.packet.server.play"><code>UpdateViewPositionPacket</code></a>  to the player.</div>
 </dd>
@@ -27468,6 +27693,10 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <div class="block">Returns the enum constant of this type with the specified name.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/bossbar/BarDivision.html#valueOf(java.lang.String)">valueOf(String)</a></span> - Static method in enum net.minestom.server.bossbar.<a href="net/minestom/server/bossbar/BarDivision.html" title="enum in net.minestom.server.bossbar">BarDivision</a></dt>
+<dd>
+<div class="block">Returns the enum constant of this type with the specified name.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/arguments/minecraft/SuggestionType.html#valueOf(java.lang.String)">valueOf(String)</a></span> - Static method in enum net.minestom.server.command.builder.arguments.minecraft.<a href="net/minestom/server/command/builder/arguments/minecraft/SuggestionType.html" title="enum in net.minestom.server.command.builder.arguments.minecraft">SuggestionType</a></dt>
 <dd>
 <div class="block">Returns the enum constant of this type with the specified name.</div>
 </dd>
@@ -27780,6 +28009,11 @@ the order they are declared.</div>
 the order they are declared.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/bossbar/BarDivision.html#values()">values()</a></span> - Static method in enum net.minestom.server.bossbar.<a href="net/minestom/server/bossbar/BarDivision.html" title="enum in net.minestom.server.bossbar">BarDivision</a></dt>
+<dd>
+<div class="block">Returns an array containing the constants of this enum type, in
+the order they are declared.</div>
+</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/command/builder/arguments/minecraft/SuggestionType.html#values()">values()</a></span> - Static method in enum net.minestom.server.command.builder.arguments.minecraft.<a href="net/minestom/server/command/builder/arguments/minecraft/SuggestionType.html" title="enum in net.minestom.server.command.builder.arguments.minecraft">SuggestionType</a></dt>
 <dd>
 <div class="block">Returns an array containing the constants of this enum type, in
 the order they are declared.</div>
@@ -28860,6 +29094,8 @@ the order they are declared.</div>
 <dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/binary/BinaryWriter.html#write(int)">write(int)</a></span> - Method in class net.minestom.server.utils.binary.<a href="net/minestom/server/utils/binary/BinaryWriter.html" title="class in net.minestom.server.utils.binary">BinaryWriter</a></dt>
 <dd>&nbsp;</dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/player/NettyPlayerConnection.html#write(java.lang.Object)">write(Object)</a></span> - Method in class net.minestom.server.network.player.<a href="net/minestom/server/network/player/NettyPlayerConnection.html" title="class in net.minestom.server.network.player">NettyPlayerConnection</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/binary/BinaryWriter.html#write(java.util.function.Consumer)">write(Consumer&lt;BinaryWriter&gt;)</a></span> - Method in class net.minestom.server.utils.binary.<a href="net/minestom/server/utils/binary/BinaryWriter.html" title="class in net.minestom.server.utils.binary">BinaryWriter</a></dt>
 <dd>
 <div class="block">Consumer this object to write at a different time</div>
@@ -29164,6 +29400,8 @@ the order they are declared.</div>
 <dd>
 <div class="block">Represents an element which can write to a <a href="net/minestom/server/utils/binary/BinaryWriter.html" title="class in net.minestom.server.utils.binary"><code>BinaryWriter</code></a>.</div>
 </dd>
+<dt><span class="memberNameLink"><a href="net/minestom/server/network/player/NettyPlayerConnection.html#writeAndFlush(java.lang.Object)">writeAndFlush(Object)</a></span> - Method in class net.minestom.server.network.player.<a href="net/minestom/server/network/player/NettyPlayerConnection.html" title="class in net.minestom.server.network.player">NettyPlayerConnection</a></dt>
+<dd>&nbsp;</dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/binary/BinaryWriter.html#writeAtEnd(net.minestom.server.utils.binary.BinaryWriter)">writeAtEnd(BinaryWriter)</a></span> - Method in class net.minestom.server.utils.binary.<a href="net/minestom/server/utils/binary/BinaryWriter.html" title="class in net.minestom.server.utils.binary">BinaryWriter</a></dt>
 <dd>
 <div class="block">Adds a <a href="net/minestom/server/utils/binary/BinaryWriter.html" title="class in net.minestom.server.utils.binary"><code>BinaryWriter</code></a>'s <code>ByteBuf</code> at the end of this writer.</div>
@@ -29249,10 +29487,6 @@ the order they are declared.</div>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/binary/BinaryWriter.html#writeStringArray(java.lang.String%5B%5D)">writeStringArray(String[])</a></span> - Method in class net.minestom.server.utils.binary.<a href="net/minestom/server/utils/binary/BinaryWriter.html" title="class in net.minestom.server.utils.binary">BinaryWriter</a></dt>
 <dd>
 <div class="block">Writes a string to the buffer.</div>
-</dd>
-<dt><span class="memberNameLink"><a href="net/minestom/server/data/NbtDataImpl.html#writeToNbt(org.jglrxavpok.hephaistos.nbt.NBTCompound)">writeToNbt(NBTCompound)</a></span> - Method in class net.minestom.server.data.<a href="net/minestom/server/data/NbtDataImpl.html" title="class in net.minestom.server.data">NbtDataImpl</a></dt>
-<dd>
-<div class="block">Writes all the data into a <code>NBTCompound</code>.</div>
 </dd>
 <dt><span class="memberNameLink"><a href="net/minestom/server/utils/binary/BinaryWriter.html#writeUuid(java.util.UUID)">writeUuid(UUID)</a></span> - Method in class net.minestom.server.utils.binary.<a href="net/minestom/server/utils/binary/BinaryWriter.html" title="class in net.minestom.server.utils.binary">BinaryWriter</a></dt>
 <dd>
