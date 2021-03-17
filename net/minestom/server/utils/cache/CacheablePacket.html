@@ -130,8 +130,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <div class="block">Implemented by <a href="../../network/packet/server/ServerPacket.html" title="interface in net.minestom.server.network.packet.server"><code>server packets</code></a> which can be temporary cached in memory to be re-sent later
  without having to go through all the writing and compression.
  <p>
- <a href="#getIdentifier()"><code>getIdentifier()</code></a> is to differenciate this packet from the others of the same type,
- and <a href="#getLastUpdateTime()"><code>getLastUpdateTime()</code></a> to know if one packet is newer than the previous one.</div>
+ <a href="#getIdentifier()"><code>getIdentifier()</code></a> is to differentiate this packet from the others of the same type.</div>
 </li>
 </ul>
 </div>
@@ -153,7 +152,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <th class="colLast" scope="col">Description</th>
 </tr>
 <tr id="i0" class="altColor">
-<td class="colFirst"><code><a href="TemporaryPacketCache.html" title="class in net.minestom.server.utils.cache">TemporaryPacketCache</a></code></td>
+<td class="colFirst"><code><a href="TemporaryCache.html" title="class in net.minestom.server.utils.cache">TemporaryCache</a>&lt;<a href="TimedBuffer.html" title="class in net.minestom.server.utils.cache">TimedBuffer</a>&gt;</code></td>
 <th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getCache()">getCache</a></span>()</code></th>
 <td class="colLast">
 <div class="block">Gets the cache linked to this packet.</div>
@@ -168,7 +167,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 </tr>
 <tr id="i2" class="altColor">
 <td class="colFirst"><code>long</code></td>
-<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getLastUpdateTime()">getLastUpdateTime</a></span>()</code></th>
+<th class="colSecond" scope="row"><code><span class="memberNameLink"><a href="#getTimestamp()">getTimestamp</a></span>()</code></th>
 <td class="colLast">
 <div class="block">Gets the last time this packet changed.</div>
 </td>
@@ -197,7 +196,7 @@ $('.navPadding').css('padding-top', $('.fixedNav').css("height"));
 <li class="blockList">
 <h4>getCache</h4>
 <pre class="methodSignature">@NotNull
-<a href="TemporaryPacketCache.html" title="class in net.minestom.server.utils.cache">TemporaryPacketCache</a>&nbsp;getCache()</pre>
+<a href="TemporaryCache.html" title="class in net.minestom.server.utils.cache">TemporaryCache</a>&lt;<a href="TimedBuffer.html" title="class in net.minestom.server.utils.cache">TimedBuffer</a>&gt;&nbsp;getCache()</pre>
 <div class="block">Gets the cache linked to this packet.
  <p>
  WARNING: the cache needs to be shared between all the object instances, tips is to make it static.</div>
@@ -220,17 +219,17 @@ java.util.UUID&nbsp;getIdentifier()</pre>
  Used to verify if this packet is already cached or not.</div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
-<dd>this packet identifier, null to do not retrieve the cache</dd>
+<dd>this packet identifier, null to prevent caching</dd>
 </dl>
 </li>
 </ul>
-<a id="getLastUpdateTime()">
+<a id="getTimestamp()">
 <!--   -->
 </a>
 <ul class="blockListLast">
 <li class="blockList">
-<h4>getLastUpdateTime</h4>
-<pre class="methodSignature">long&nbsp;getLastUpdateTime()</pre>
+<h4>getTimestamp</h4>
+<pre class="methodSignature">long&nbsp;getTimestamp()</pre>
 <div class="block">Gets the last time this packet changed.</div>
 <dl>
 <dt><span class="returnLabel">Returns:</span></dt>
